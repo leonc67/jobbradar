@@ -48,8 +48,8 @@ interface NavAd {
 
 /** Rask sjekk på tittelen før vi gjør et ekstra kall for detaljene. */
 export function isCandidateTitle(title: string): boolean {
-  const all = Object.values(config.periodKeywords).flat();
-  if (!all.some((k) => containsWord(title, k))) return false;
+  const all = Object.values(config.periodPatterns).flat();
+  if (!all.some((p) => p.test(title))) return false;
   return !config.excludeKeywords.some((k) => containsWord(title, k));
 }
 
@@ -67,7 +67,7 @@ export function parseNavAd(uuid: string, body: unknown): RawJob | null {
   const categories = [
     ...(a.occupationCategories ?? []).flatMap((c) => [c.level1, c.level2]),
     ...(a.categoryList ?? []).map((c) => c.name),
-  ].filter(Boolean);
+  ].filter((c): c is string => Boolean(c));
 
   return {
     source: 'nav',
@@ -85,7 +85,8 @@ export function parseNavAd(uuid: string, body: unknown): RawJob | null {
     ],
     deadline,
     rolling: !deadline,
-    text: `${categories.join(' ')} ${stripHtml(a.description ?? '')}`.slice(0, 3000),
+    text: stripHtml(a.description ?? '').slice(0, 2000),
+    categories: [...new Set(categories)],
   };
 }
 

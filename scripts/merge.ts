@@ -1,5 +1,5 @@
 import type { Job, RawJob, SourceId } from '../shared/types.ts';
-import { assess, classify } from './relevance.ts';
+import { assess, classify, isIt } from './relevance.ts';
 import { normalizeCompany, slugify, titleSimilarity, tokens } from '../shared/text.ts';
 
 const SOURCE_PRIORITY: SourceId[] = ['abakus', 'itdagene', 'nav', 'manual'];
@@ -39,6 +39,7 @@ export function mergeJobs(raws: RawJob[], previous: Job[], now: Date): Job[] {
     const kind = classify(raw);
     if (!kind) continue;
     if (raw.deadline && raw.deadline < today) continue;
+    if (!isIt(raw)) continue; // NAV har mange sommerjobber utenfor IT, de tar vi ikke med
 
     const group = groups.find((g) => g.kind === kind && sameJob(g.items[0], raw));
     if (group) group.items.push(raw);
@@ -57,6 +58,7 @@ export function mergeJobs(raws: RawJob[], previous: Job[], now: Date): Job[] {
       fromYear: withYear?.fromYear ?? null,
       toYear: withYear?.toYear ?? null,
       text: items.map((i) => i.text ?? '').join(' '),
+      categories: items.flatMap((i) => i.categories ?? []),
     };
     const { flags, score } = assess(combined, kind);
     const sources = items.map(({ source, sourceId, url }) => ({ source, sourceId, url }));

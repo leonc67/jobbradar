@@ -5,7 +5,7 @@ import navAd from './fixtures/nav-ad.json';
 import { parseAbakus } from '../scripts/sources/abakus.ts';
 import { parseItdagene } from '../scripts/sources/itdagene.ts';
 import { isCandidateTitle, parseNavAd } from '../scripts/sources/nav.ts';
-import { classify } from '../scripts/relevance.ts';
+import { classify, isIt } from '../scripts/relevance.ts';
 import { mergeJobs, sameJob } from '../scripts/merge.ts';
 import { containsWord, toIsoDate } from '../shared/text.ts';
 
@@ -59,9 +59,22 @@ describe('kilder', () => {
     const job = parseNavAd(navAd.uuid, navAd)!;
     expect(job).toMatchObject({ company: 'Eksempel Kraft AS', deadline: '2026-12-15', locations: ['Oslo'] });
     expect(job.text).toContain('4. året');
-    expect(isCandidateTitle('Sommervikar renhold')).toBe(true);
+    expect(job.categories).toContain('IT');
+    expect(isCandidateTitle('Sommerstudent IT-sikkerhet')).toBe(true);
+    expect(isCandidateTitle('Summer Internship 2027')).toBe(true);
+    expect(isCandidateTitle('Sommervikar renhold')).toBe(false);
+    expect(isCandidateTitle('Rådgiver internasjonal utveksling')).toBe(false);
     expect(isCandidateTitle('Daglig leder')).toBe(false);
     expect(isCandidateTitle('Graduate Program 2027')).toBe(false);
+  });
+
+  it('tar bare med IT-stillinger fra NAV', () => {
+    const nav = (title: string, categories: string[] = []) => ({ source: 'nav' as const, title, categories });
+    expect(isIt(nav('Sommerstudent', ['IT', 'Utvikling']))).toBe(true);
+    expect(isIt(nav('Sommerjobb utvikler backend'))).toBe(true);
+    expect(isIt(nav('Sommerjobb 2027 – festivalvektere', ['Vekter, sikkerhet']))).toBe(false);
+    expect(isIt(nav('2 pedagogiske ledere i Sommerfryd', ['Utdanning', 'Barnehagelærer']))).toBe(false);
+    expect(isIt({ source: 'abakus', title: 'Summer Internship 2027' })).toBe(true);
   });
 });
 

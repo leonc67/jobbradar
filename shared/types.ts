@@ -63,6 +63,8 @@ export interface RawJob {
   rolling: boolean;
   fromYear?: number | null;
   toYear?: number | null;
-  /** Fritekst brukt til å vurdere relevans (beskrivelse, kategorier osv.) */
+  /** Fritekst brukt til å se etter krav om årstrinn */
   text?: string;
+  /** Yrkeskategorier fra kilden (NAV), brukt til å avgjøre om det er IT */
+  categories?: string[];
 }

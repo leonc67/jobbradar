@@ -1,3 +1,7 @@
+/** Lager et regulært uttrykk som bare treffer hele ord (også med æøå). */
+const word = (pattern: string) =>
+  new RegExp(`(?<![\\p{L}\\p{N}])(?:${pattern})(?![\\p{L}\\p{N}])`, 'iu');
+
 /**
  * Søkeprofil. Endre denne for å tilpasse hva som regnes som relevant.
  * Alt her er offentlig i repoet, så ikke legg inn personlige data.
@@ -12,11 +16,17 @@ export const config = {
     'asker', 'kjeller', 'lillestrøm', 'lillestrom', 'trondheim', 'remote', 'hybrid',
   ],
 
-  /** Ord som tyder på sommerjobb, winternship eller internship. */
-  periodKeywords: {
-    summer: ['sommer', 'summer', 'sommerstudent', 'sommerjobb', 'sommerkonsulent'],
-    winter: ['winternship', 'winter intern', 'vinter'],
-    internship: ['intern', 'internship', 'praktikant', 'praksis'],
+  /**
+   * Mønstre som tyder på sommerjobb, winternship eller internship. Hele ord, så
+   * "intern" ikke treffer "internasjonal" og "sommer" ikke treffer "sommervikar".
+   */
+  periodPatterns: {
+    summer: [
+      word('summer'),
+      word('sommer(jobb|jobber|student|studenter|konsulent|konsulenter|praktikant|intern|internship|forsker)'),
+    ],
+    winter: [word('winternships?'), word('winter\\s+interns?(hip)?')],
+    internship: [word('interns?'), word('internships?'), word('praktikant(er)?')],
   },
 
   /** Ord som gjør at en stilling droppes helt (faste stillinger, deltid osv.). */
@@ -25,13 +35,17 @@ export const config = {
     'part time', 'studentmedarbeider', 'student worker', 'åpen søknad', 'open application',
   ],
 
-  /** Ord som tyder på en IT-stilling. */
-  itKeywords: [
-    'it', 'ikt', 'tech', 'teknologi', 'technology', 'digital', 'data', 'software',
-    'utvikl', 'develop', 'engineer', 'ingeniør', 'kode', 'code', 'programmer',
-    'cyber', 'sikkerhet', 'security', 'nettverk', 'network', 'cloud', 'sky',
-    'backend', 'fullstack', 'ai', 'ki', 'maskinlæring', 'machine learning', 'analyse',
-    'analytics', 'infrastructure', 'infrastruktur', 'devops', 'platform', 'plattform',
+  /**
+   * Mønstre som tyder på en IT-stilling. Sjekkes mot tittel og NAVs yrkeskategorier,
+   * ikke hele beskrivelsen, fordi lange tekster nesten alltid nevner "data" et sted.
+   */
+  itPatterns: [
+    word('it|ikt|ai|ki|tech|cyber|devops|backend|fullstack|software'),
+    word('it-\\p{L}+|ikt-\\p{L}+'),
+    word('teknologi\\p{L}*|technology|digital\\p{L}*|data\\p{L}*'),
+    word('utvikl(er|ere|ing)\\p{L}*|develop(er|ment)?|programm\\p{L}*|kode|code'),
+    word('(informasjons|data|nett|cyber)sikkerhet|(cyber|information|network)\\s+security|nettverk|network|cloud|skytjenester'),
+    word('maskinlæring|machine\\s+learning|analytics|infrastruktur|infrastructure'),
   ],
 
   /** Tekst som tyder på at stillingen krever et høyere årstrinn. */
