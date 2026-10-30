@@ -1,0 +1,7 @@
+node_modules
+dist
+*.local
+.DS_Store
+# Personlige backup- og importfiler skal aldri i repoet
+jobbradar-backup-*.json
+mine-soknader*.json

@@ -1,0 +1,248 @@
+{
+ "generatedAt": "2026-10-30T16:42:56.908Z",
+ "sources": [
+  {
+   "id": "abakus",
+   "ok": true,
+   "count": 9
+  },
+  {
+   "id": "itdagene",
+   "ok": true,
+   "count": 8
+  },
+  {
+   "id": "nav",
+   "ok": false,
+   "count": 0,
+   "error": "Ikke hentet ennå"
+  }
+ ],
+ "jobs": [
+  {
+   "key": "hemit--sommerjobb-hemit-2027",
+   "company": "HEMIT",
+   "title": "Sommerjobb Hemit 2027",
+   "kind": "summer",
+   "locations": [
+    "Trondheim"
+   ],
+   "deadline": "2026-10-30",
+   "rolling": false,
+   "fromYear": 1,
+   "toYear": 5,
+   "sources": [
+    {
+     "source": "abakus",
+     "sourceId": "2651",
+     "url": "https://abakus.no/joblistings/2651-sommerjobb-hemit-2027"
+    }
+   ],
+   "flags": [],
+   "score": 65,
+   "firstSeen": "2026-10-30T16:42:56.908Z",
+   "lastSeen": "2026-10-30T16:42:56.908Z"
+  },
+  {
+   "key": "mnemonic--kickstart-your-career-with-a-summer-internship-at-mnemonic",
+   "company": "mnemonic",
+   "title": "Kickstart your career with a summer internship at mnemonic!",
+   "kind": "summer",
+   "locations": [
+    "Oslo"
+   ],
+   "deadline": "2026-10-31",
+   "rolling": false,
+   "fromYear": 3,
+   "toYear": 5,
+   "sources": [
+    {
+     "source": "abakus",
+     "sourceId": "2635",
+     "url": "https://abakus.no/joblistings/2635-kickstart-your-career-with-a-summer"
+    }
+   ],
+   "flags": [],
+   "score": 65,
+   "firstSeen": "2026-10-30T16:42:56.908Z",
+   "lastSeen": "2026-10-30T16:42:56.908Z"
+  },
+  {
+   "key": "mnemonic-as--minternship-developer",
+   "company": "Mnemonic AS",
+   "title": "mInternship: Developer",
+   "kind": "summer",
+   "locations": [
+    "Oslo"
+   ],
+   "deadline": "2026-10-31",
+   "rolling": false,
+   "fromYear": 3,
+   "toYear": 5,
+   "sources": [
+    {
+     "source": "itdagene",
+     "sourceId": "mnemonic-as-minternship-developer-2026",
+     "url": "https://itdagene.no/jobb/mnemonic-as-minternship-developer-2026"
+    }
+   ],
+   "flags": [],
+   "score": 71,
+   "firstSeen": "2026-10-30T16:42:56.908Z",
+   "lastSeen": "2026-10-30T16:42:56.908Z"
+  },
+  {
+   "key": "mnemonic-as--minternship-security-consultant",
+   "company": "Mnemonic AS",
+   "title": "mInternship: Security Consultant",
+   "kind": "summer",
+   "locations": [
+    "Oslo"
+   ],
+   "deadline": "2026-10-31",
+   "rolling": false,
+   "fromYear": 3,
+   "toYear": 5,
+   "sources": [
+    {
+     "source": "itdagene",
+     "sourceId": "mnemonic-as-minternship-security-consultant-2026",
+     "url": "https://itdagene.no/jobb/mnemonic-as-minternship-security-consultant-2026"
+    }
+   ],
+   "flags": [],
+   "score": 71,
+   "firstSeen": "2026-10-30T16:42:56.908Z",
+   "lastSeen": "2026-10-30T16:42:56.908Z"
+  },
+  {
+   "key": "mnemonic-as--minternship-security-management-consultant",
+   "company": "Mnemonic AS",
+   "title": "mInternship: Security Management Consultant",
+   "kind": "summer",
+   "locations": [
+    "Oslo"
+   ],
+   "deadline": "2026-10-31",
+   "rolling": false,
+   "fromYear": 3,
+   "toYear": 5,
+   "sources": [
+    {
+     "source": "itdagene",
+     "sourceId": "mnemonic-as-minternship-security-management-consultant-2026",
+     "url": "https://itdagene.no/jobb/mnemonic-as-minternship-security-management-consultant-2026"
+    }
+   ],
+   "flags": [],
+   "score": 71,
+   "firstSeen": "2026-10-30T16:42:56.908Z",
+   "lastSeen": "2026-10-30T16:42:56.908Z"
+  },
+  {
+   "key": "lighthouse--summer-intern-ki-utvikling-2-stillinger",
+   "company": "Lighthouse",
+   "title": "Summer Intern – KI-utvikling (2 stillinger)",
+   "kind": "summer",
+   "locations": [
+    "Trondheim"
+   ],
+   "deadline": "2026-11-13",
+   "rolling": true,
+   "fromYear": 3,
+   "toYear": 5,
+   "sources": [
+    {
+     "source": "abakus",
+     "sourceId": "2659",
+     "url": "https://abakus.no/joblistings/2659-summer-intern-ki-utvikling-2-stillinger"
+    }
+   ],
+   "flags": [],
+   "score": 77,
+   "firstSeen": "2026-10-30T16:42:56.908Z",
+   "lastSeen": "2026-10-30T16:42:56.908Z"
+  },
+  {
+   "key": "aker-bp--sommerstudent-2027-subsurface-data-science",
+   "company": "Aker BP",
+   "title": "Sommerstudent 2027 – Subsurface Data Science",
+   "kind": "summer",
+   "locations": [
+    "Oslo"
+   ],
+   "deadline": "2026-11-29",
+   "rolling": false,
+   "fromYear": 4,
+   "toYear": 4,
+   "sources": [
+    {
+     "source": "abakus",
+     "sourceId": "2664",
+     "url": "https://abakus.no/joblistings/2664-sommerstudent-2027-subsurface-data-science"
+    }
+   ],
+   "flags": [
+    "year"
+   ],
+   "score": 36,
+   "firstSeen": "2026-10-30T16:42:56.908Z",
+   "lastSeen": "2026-10-30T16:42:56.908Z"
+  },
+  {
+   "key": "vespa--sommerjobb-2027-vespa",
+   "company": "Vespa",
+   "title": "Sommerjobb 2027 Vespa",
+   "kind": "summer",
+   "locations": [
+    "Trondheim"
+   ],
+   "deadline": "2026-12-13",
+   "rolling": false,
+   "fromYear": 4,
+   "toYear": 5,
+   "sources": [
+    {
+     "source": "abakus",
+     "sourceId": "2653",
+     "url": "https://abakus.no/joblistings/2653-sommerjobb-2027-vespa"
+    },
+    {
+     "source": "itdagene",
+     "sourceId": "vespa-internship-2027-2026",
+     "url": "https://itdagene.no/jobb/vespa-internship-2027-2026"
+    }
+   ],
+   "flags": [
+    "year"
+   ],
+   "score": 30,
+   "firstSeen": "2026-10-30T16:42:56.908Z",
+   "lastSeen": "2026-10-30T16:42:56.908Z"
+  },
+  {
+   "key": "gintel-as--summer-internship-2027",
+   "company": "Gintel AS",
+   "title": "Summer Internship 2027",
+   "kind": "summer",
+   "locations": [
+    "Trondheim"
+   ],
+   "deadline": "2027-03-01",
+   "rolling": false,
+   "fromYear": 2,
+   "toYear": 5,
+   "sources": [
+    {
+     "source": "itdagene",
+     "sourceId": "gintel-as-summer-internship-2027-2026",
+     "url": "https://itdagene.no/jobb/gintel-as-summer-internship-2027-2026"
+    }
+   ],
+   "flags": [],
+   "score": 65,
+   "firstSeen": "2026-10-30T16:42:56.908Z",
+   "lastSeen": "2026-10-30T16:42:56.908Z"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+[
+ {"slug":"mnemonic-as-minternship-developer-2026","title":"mInternship: Developer","type":"SI","deadline":"2026-10-31T22:59:00+00:00","fromGrade":3,"toGrade":5,"isActive":true,"towns":[{"name":"Oslo"}],"company":{"name":"Mnemonic AS"}},
+ {"slug":"mnemonic-as-minternship-security-consultant-2026","title":"mInternship: Security Consultant","type":"SI","deadline":"2026-10-31T22:59:00+00:00","fromGrade":3,"toGrade":5,"isActive":true,"towns":[{"name":"Oslo"}],"company":{"name":"Mnemonic AS"}},
+ {"slug":"mnemonic-as-minternship-security-management-consultant-2026","title":"mInternship: Security Management Consultant","type":"SI","deadline":"2026-10-31T22:59:00+00:00","fromGrade":3,"toGrade":5,"isActive":true,"towns":[{"name":"Oslo"}],"company":{"name":"Mnemonic AS"}},
+ {"slug":"vespa-internship-2027-2026","title":"Internship 2027","type":"SI","deadline":"2026-12-13T22:59:00+00:00","fromGrade":4,"toGrade":5,"isActive":true,"towns":[{"name":"Trondheim"}],"company":{"name":"Vespa.ai"}},
+ {"slug":"gintel-as-summer-internship-2027-2026","title":"Summer Internship 2027","type":"SI","deadline":"2027-03-01T22:59:00+00:00","fromGrade":2,"toGrade":5,"isActive":true,"towns":[{"name":"Trondheim"}],"company":{"name":"Gintel AS"}},
+ {"slug":"thales-norway-as-nyutdannet-software-engineer-ccrust-2026","title":"Nyutdannet Software Engineer (C#/C++/Rust)","type":"SI","deadline":null,"fromGrade":5,"toGrade":5,"isActive":true,"towns":[{"name":"Trondheim"}],"company":{"name":"Thales Norway AS"}},
+ {"slug":"jotron-rd-engineers-2026","title":"R&D Engineers","type":"PP","deadline":null,"fromGrade":5,"toGrade":5,"isActive":true,"towns":[{"name":"Larvik"}],"company":{"name":"Jotron"}},
+ {"slug":"old-ad","title":"Sommerjobb 2026","type":"SI","deadline":"2026-01-01T22:59:00+00:00","fromGrade":1,"toGrade":5,"isActive":false,"towns":[],"company":{"name":"Gammel AS"}}
+]
