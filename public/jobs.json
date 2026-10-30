@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T18:58:53.273Z",
+ "generatedAt": "2026-10-30T19:08:07.224Z",
  "sources": [
   {
    "id": "abakus",
@@ -14,7 +14,7 @@
   {
    "id": "nav",
    "ok": true,
-   "count": 106
+   "count": 29
   }
  ],
  "jobs": [
@@ -40,57 +40,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "sommerfryd-barnehage-oslo-kommune-bydel-gamle-oslo--2-pedagogiske-ledere-i-sommerfryd",
-   "company": "Sommerfryd barnehage, Oslo kommune, Bydel Gamle Oslo",
-   "title": "2 Pedagogiske ledere i Sommerfryd",
-   "kind": "summer",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-10-30",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "3d3c9291-d110-427c-9c94-20d27dd32786",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/3d3c9291-d110-427c-9c94-20d27dd32786"
-    }
-   ],
-   "flags": [],
-   "score": 71,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "morbergtoppen-fus-barnehage-as--barnehagelaerer-sokes-til-50-stilling-i-engasjement-frem-til",
-   "company": "Morbergtoppen FUS barnehage as",
-   "title": "Barnehagelærer søkes til 50 % stilling i engasjement frem til sommeren!",
-   "kind": "summer",
-   "locations": [
-    "Slemmestad"
-   ],
-   "deadline": "2026-10-30",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "f35d70d0-82d1-4b27-abd7-f17f012d8e43",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/f35d70d0-82d1-4b27-abd7-f17f012d8e43"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "mnemonic--kickstart-your-career-with-a-summer-internship-at-mnemonic",
@@ -114,7 +64,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "mnemonic-as--minternship-developer",
@@ -136,9 +86,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 71,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "mnemonic-as--minternship-security-consultant",
@@ -160,9 +110,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 65,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "mnemonic-as--minternship-security-management-consultant",
@@ -184,9 +134,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 65,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "tv-2--sommerjobb-tv-2-digital",
@@ -209,62 +159,9 @@
     }
    ],
    "flags": [],
-   "score": 89,
+   "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "fjellfix-trysil-as--renholdere-sokes-for-vintersesongen-i-trysil",
-   "company": "Fjellfix Trysil As",
-   "title": "Renholdere søkes for vintersesongen i Trysil",
-   "kind": "winter",
-   "locations": [
-    "Trysil"
-   ],
-   "deadline": "2026-10-31",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "4ec6dc08-2c73-4dc6-a4b9-6f283b4bf6c2",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/4ec6dc08-2c73-4dc6-a4b9-6f283b4bf6c2"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "fjellfix-trysil-as--heisvert-sokes-i-trysil-og-omegn-vintersesong-30-80",
-   "company": "Fjellfix Trysil AS",
-   "title": "Heisvert søkes i Trysil og omegn – vintersesong, 30–80 %",
-   "kind": "winter",
-   "locations": [
-    "Trysil"
-   ],
-   "deadline": "2026-10-31",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "ead238fa-6467-409a-86f7-9b7f19a5dd1b",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/ead238fa-6467-409a-86f7-9b7f19a5dd1b"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 21,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "forsvarets-forskningsinstitutt--sommerstudent-ved-ffi",
@@ -286,9 +183,9 @@
     }
    ],
    "flags": [],
-   "score": 77,
+   "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "forsvarets-forskningsinstitutt--har-du-lyst-pa-en-spennende-og-faglig-relevant-sommerjobb-ne",
@@ -310,33 +207,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "sweco-norge--sommerjobb-radgiver-vannkraft-oslo",
-   "company": "Sweco Norge",
-   "title": "Sommerjobb rådgiver Vannkraft, Oslo",
-   "kind": "summer",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-11-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "72abfabd-940c-41ee-8d87-c2aec0751024",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/72abfabd-940c-41ee-8d87-c2aec0751024"
-    }
-   ],
-   "flags": [],
-   "score": 83,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "politiets-it-enhet--sommerstudent-utvikling",
@@ -358,9 +231,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 83,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "politiets-it-enhet--er-du-var-nye-sommerstudent-og-vil-jobbe-som-produktleder-i-",
@@ -382,186 +255,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 77,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "sweco-norge--sommerstudent-ingeniorgeologi-oslo",
-   "company": "Sweco Norge",
-   "title": "Sommerstudent ingeniørgeologi, Oslo",
-   "kind": "summer",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-11-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "327d181d-655e-4a2a-a9b8-27dc05051c5c",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/327d181d-655e-4a2a-a9b8-27dc05051c5c"
-    }
-   ],
-   "flags": [],
-   "score": 89,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "musti-norge-as--julevikar-i-20-stilling-til-musti-i-vinterbro",
-   "company": "Musti Norge AS",
-   "title": "Julevikar i 20% stilling til Musti i Vinterbro!",
-   "kind": "winter",
-   "locations": [
-    "Vinterbro"
-   ],
-   "deadline": "2026-11-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "5651fdad-efbd-4988-96ab-252e01018ba4",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/5651fdad-efbd-4988-96ab-252e01018ba4"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 27,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "kreftklinikken-avdeling-leger-st-olavs-hospital--kreftklinikken-soker-legevikarer-for-sommeren-2027",
-   "company": "Kreftklinikken  - Avdeling leger, St. Olavs hospital",
-   "title": "Kreftklinikken søker legevikarer for sommeren 2027",
-   "kind": "summer",
-   "locations": [
-    "Trondheim"
-   ],
-   "deadline": "2026-11-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "e6b3a6ba-e2b4-4880-8939-2875124ba7a1",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/e6b3a6ba-e2b4-4880-8939-2875124ba7a1"
-    }
-   ],
-   "flags": [],
-   "score": 71,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "medisinsk-divisjon-sengeposter--har-du-noen-planer-for-sommeren-2027-vi-soker-medisinstudent",
-   "company": "Medisinsk divisjon, sengeposter",
-   "title": "Har du noen planer for sommeren 2027? Vi søker medisinstudent med lisens/LIS til visitt på sengepostene",
-   "kind": "summer",
-   "locations": [
-    "Lørenskog"
-   ],
-   "deadline": "2026-11-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "3f2618cb-de19-4d1b-b267-824f9c2f51aa",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/3f2618cb-de19-4d1b-b267-824f9c2f51aa"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "espira-kunnskapsbyen--vil-du-vaere-med-a-skape-pedagogisk-kvalitet-i-praksis-hver-",
-   "company": "Espira Kunnskapsbyen",
-   "title": "Vil du være med å skape pedagogisk kvalitet i praksis – hver dag?",
-   "kind": "internship",
-   "locations": [
-    "Kjeller"
-   ],
-   "deadline": "2026-11-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "0c4916f0-b841-4c9e-bc3b-b726f8d3707e",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/0c4916f0-b841-4c9e-bc3b-b726f8d3707e"
-    }
-   ],
-   "flags": [],
-   "score": 62,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "kongsberg-gruppen-kongsberg-defence-aerospace-defence-system--vil-du-bidra-til-at-fremtidens-dronebaserte-forsvarslosninge",
-   "company": "Kongsberg Gruppen Kongsberg Defence & Aerospace - Defence Systems - Land Systems",
-   "title": "Vil du bidra til at fremtidens dronebaserte forsvarsløsninger testes, verifiseres og opereres i praksis?",
-   "kind": "internship",
-   "locations": [
-    "Kongsberg"
-   ],
-   "deadline": "2026-11-02",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "c956c4e0-7653-4f64-928a-c2230f9e844a",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c956c4e0-7653-4f64-928a-c2230f9e844a"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 39,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "kraekkja-turisthytte-as--sesongarbeider-pa-kraekkja-vinteren-2027",
-   "company": "Krækkja Turisthytte As",
-   "title": "Sesongarbeider på Krækkja vinteren 2027",
-   "kind": "winter",
-   "locations": [
-    "Haugastøl"
-   ],
-   "deadline": "2026-11-02",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "aeafa3e9-610a-47fc-99f2-cc976f2da1a5",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/aeafa3e9-610a-47fc-99f2-cc976f2da1a5"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "norconsult-digital-as--sommerjobb-innen-maskinlaering",
@@ -588,9 +284,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "norconsult-digital-as--sommerjobb-innen-teknologi-og-digitalisering",
@@ -617,286 +313,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "espira-grefsen-stasjon--vil-du-vaere-med-a-skape-pedagogisk-kvalitet-i-praksis-hver-",
-   "company": "Espira Grefsen Stasjon",
-   "title": "Vil du være med å skape pedagogisk kvalitet i praksis – hver dag?",
-   "kind": "internship",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-11-06",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "a5085b6e-bf6e-426f-8c8c-b4987ca3e287",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a5085b6e-bf6e-426f-8c8c-b4987ca3e287"
-    }
-   ],
-   "flags": [],
-   "score": 62,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "hoyskolen-kristiania-ernst-g-mortensens-stiftelse--radgiver-praksis-og-arbeidsliv-vikariat",
-   "company": "Høyskolen Kristiania – Ernst G Mortensens Stiftelse",
-   "title": "Rådgiver – Praksis og arbeidsliv (vikariat)",
-   "kind": "internship",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-11-06",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "ae2f9aa1-b4a4-446a-8925-d4125d8a67d7",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/ae2f9aa1-b4a4-446a-8925-d4125d8a67d7"
-    }
-   ],
-   "flags": [],
-   "score": 68,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "klinikk-for-ortopedi-revmatologi-og-hudsykdommer-st-olavs-ho--sykepleiere-ved-ortopedisk-avdeling-intern-vikarpool",
-   "company": "KLINIKK FOR ORTOPEDI, REVMATOLOGI OG HUDSYKDOMMER, St. Olavs hospital",
-   "title": "Sykepleiere ved Ortopedisk avdeling, intern vikarpool",
-   "kind": "internship",
-   "locations": [
-    "Trondheim"
-   ],
-   "deadline": "2026-11-08",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "b56516b5-1c84-4cfe-8748-a72099ed0293",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b56516b5-1c84-4cfe-8748-a72099ed0293"
-    }
-   ],
-   "flags": [],
-   "score": 56,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "upa-sánag-sanks-sámi-klinihkka-finnmarkssykehuset-hf--turnusarbeid-med-fri-i-pasken-og-jula-arbeid-hver-5-helg-og-",
-   "company": "UPA SÁNAG/SANKS Sámi Klinihkka, Finnmarkssykehuset HF",
-   "title": "Turnusarbeid med fri i påsken og jula, arbeid hver 5.helg og 5 ukers sommerferie.",
-   "kind": "summer",
-   "locations": [
-    "Karasjok"
-   ],
-   "deadline": "2026-11-08",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "0480c5e6-2d35-4975-a64e-5a491d0f0703",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/0480c5e6-2d35-4975-a64e-5a491d0f0703"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "musti-norge-as--tilkallingsvikar-til-musti-vinterbro",
-   "company": "Musti Norge AS",
-   "title": "Tilkallingsvikar til Musti Vinterbro!",
-   "kind": "winter",
-   "locations": [
-    "Vinterbro"
-   ],
-   "deadline": "2026-11-08",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "cb00ffb8-94e8-4534-aad5-ab0d20a338d9",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cb00ffb8-94e8-4534-aad5-ab0d20a338d9"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 27,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "brobekk-barnehage-oslo-kommune-bydel-bjerke--barne-og-ungdomsarbeider-i-en-praksisbarnehage-40-vikariat-m",
-   "company": "Brobekk barnehage, Oslo kommune, Bydel Bjerke",
-   "title": "Barne-og ungdomsarbeider i en praksisbarnehage. 40% vikariat med mulighet for mer jobbing",
-   "kind": "internship",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-11-08",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "8ca3ca49-ff51-4f7e-abc6-ce6075f9cf10",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8ca3ca49-ff51-4f7e-abc6-ce6075f9cf10"
-    }
-   ],
-   "flags": [],
-   "score": 62,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "evje-tannklinikk-agder-fylkeskommune--internkunngjoring-tannhelsesekretaer",
-   "company": "Evje tannklinikk, Agder fylkeskommune",
-   "title": "Internkunngjøring Tannhelsesekretær",
-   "kind": "internship",
-   "locations": [
-    "Evje"
-   ],
-   "deadline": "2026-11-08",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "b3d0618e-a6f0-4573-8f16-7f391b56c88d",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b3d0618e-a6f0-4573-8f16-7f391b56c88d"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 33,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "jula-haugesund--jula-haugesund-soker-sesonghjelp-onsker-du-a-jobbe-ekstra-de",
-   "company": "Jula Haugesund",
-   "title": "Jula Haugesund søker sesonghjelp, ønsker du å jobbe ekstra denne vinteren?",
-   "kind": "winter",
-   "locations": [
-    "Haugesund"
-   ],
-   "deadline": "2026-11-08",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "b5a8dd8e-6e29-4be7-9b76-7c6d827ad3fa",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b5a8dd8e-6e29-4be7-9b76-7c6d827ad3fa"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "facilities-management-renholds-seksjon-nordbyhagen--vi-styrker-bemanningen-for-vinteren-er-du-var-nye-renholder",
-   "company": "Facilities Management, Renholds seksjon Nordbyhagen",
-   "title": "Vi styrker bemanningen for vinteren – er du vår nye renholder?",
-   "kind": "winter",
-   "locations": [
-    "Lørenskog"
-   ],
-   "deadline": "2026-11-09",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "c57f196c-bc93-4999-831c-aef3301cf47d",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c57f196c-bc93-4999-831c-aef3301cf47d"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 21,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "ntnu-norges-teknisk-naturvitenskapelige-universitet--forstekonsulenter-innen-internasjonal-studentutveksling",
-   "company": "NTNU - Norges teknisk-naturvitenskapelige universitet",
-   "title": "Førstekonsulenter innen internasjonal studentutveksling",
-   "kind": "internship",
-   "locations": [
-    "Trondheim"
-   ],
-   "deadline": "2026-11-12",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "ad991aeb-ccd5-493d-8c32-546b33a34ecb",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/ad991aeb-ccd5-493d-8c32-546b33a34ecb"
-    }
-   ],
-   "flags": [],
-   "score": 56,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "espira-marthahaugen--vil-du-vaere-med-a-skape-pedagogisk-kvalitet-i-praksis-hver-",
-   "company": "Espira Marthahaugen",
-   "title": "Vil du være med å skape pedagogisk kvalitet i praksis – hver dag?",
-   "kind": "internship",
-   "locations": [
-    "Frekhaug"
-   ],
-   "deadline": "2026-11-12",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "1c606d5f-3f98-42fe-9122-fd1f5b49e5a8",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/1c606d5f-3f98-42fe-9122-fd1f5b49e5a8"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 27,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "lighthouse--summer-intern-ki-utvikling-2-stillinger",
@@ -920,731 +339,7 @@
    "flags": [],
    "score": 77,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "espira-vannverksdammen--vil-du-vaere-med-a-skape-pedagogisk-kvalitet-i-praksis-hver-",
-   "company": "Espira Vannverksdammen",
-   "title": "Vil du være med å skape pedagogisk kvalitet i praksis – hver dag?",
-   "kind": "internship",
-   "locations": [
-    "Drammen"
-   ],
-   "deadline": "2026-11-13",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "631fb49a-33de-40bf-825e-bed08c7d0f92",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/631fb49a-33de-40bf-825e-bed08c7d0f92"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 27,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "kirkerudbakken-skisenter--vil-du-jobbe-i-kirkerudbakken-til-vinteren",
-   "company": "Kirkerudbakken Skisenter",
-   "title": "Vil du jobbe i Kirkerudbakken til vinteren?",
-   "kind": "winter",
-   "locations": [
-    "Vøyenenga"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "e0fbacd8-536d-4de5-a165-572fe28659c5",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/e0fbacd8-536d-4de5-a165-572fe28659c5"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "dalseter-fjellhotell--resepsjonist-fjellhotell-vintersesongen-2027",
-   "company": "Dalseter Fjellhotell",
-   "title": "Resepsjonist fjellhotell - vintersesongen 2027",
-   "kind": "winter",
-   "locations": [
-    "Espedalen"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "da459717-a348-4ae9-83ae-c5640ec3a5c3",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/da459717-a348-4ae9-83ae-c5640ec3a5c3"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "dalseter-fjellhotell--kjokkenmedarbeidere-kokk-for-vintersesongen-2027",
-   "company": "Dalseter Fjellhotell",
-   "title": "Kjøkkenmedarbeidere/kokk  for vintersesongen 2027",
-   "kind": "winter",
-   "locations": [
-    "Espedalen"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "44df87ab-500d-4b82-8c88-afd819b797e2",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/44df87ab-500d-4b82-8c88-afd819b797e2"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "spar-sjobua-valle--spar-sjobua-valle-soker-butikksjef-til-sommersesongen-2027",
-   "company": "Spar Sjøbua Valle",
-   "title": "SPAR Sjøbua Valle søker butikksjef til sommersesongen 2027",
-   "kind": "summer",
-   "locations": [
-    "Stathelle"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "cb80a0ff-d73c-494f-a800-b2781a05ee99",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cb80a0ff-d73c-494f-a800-b2781a05ee99"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "sjoforsvarsstaben-forsvaret--liker-du-a-jobbe-med-risikostyring-og-internkontroll",
-   "company": "Sjøforsvarsstaben, Forsvaret",
-   "title": "Liker du å jobbe med risikostyring og internkontroll?",
-   "kind": "internship",
-   "locations": [
-    "Loddefjord"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "b93ba2d0-8aa3-44ed-b61d-f4e63404841e",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b93ba2d0-8aa3-44ed-b61d-f4e63404841e"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 33,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "kirkerudbakken-skisenter--kirkerudbakken-skisenter-soker-sesongpersonell-til-vinteren-",
-   "company": "Kirkerudbakken Skisenter",
-   "title": "Kirkerudbakken skisenter søker sesongpersonell til vinteren 2026/27",
-   "kind": "winter",
-   "locations": [
-    "Vøyenenga"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "c301f6c5-0c9d-4014-934c-325485efc4ea",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c301f6c5-0c9d-4014-934c-325485efc4ea"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "tolletaten--vil-du-jobbe-med-juridisk-utviklingsarbeid-i-skjeringspunkte",
-   "company": "Tolletaten",
-   "title": "Vil du jobbe med juridisk utviklingsarbeid i skjeringspunktet mellom nasjonalt og internasjonalt regelverk?",
-   "kind": "internship",
-   "locations": [
-    "Bergen"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "c7c625f9-38fd-4465-841a-2a12cc2b039a",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c7c625f9-38fd-4465-841a-2a12cc2b039a"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 27,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "direktor-internrevisjon--vil-du-lede-internrevisjonen-i-en-av-statens-storste-og-mest",
-   "company": "Direktør internrevisjon",
-   "title": "Vil du lede internrevisjonen i en av statens største og mest digitaliserte virksomheter?",
-   "kind": "internship",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "f7b68175-c7bf-4d14-8783-2312e719fe97",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/f7b68175-c7bf-4d14-8783-2312e719fe97"
-    }
-   ],
-   "flags": [],
-   "score": 80,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "sykehuset-i-vestfold-hf--sykepleiere-og-spesialsykepleiere-sokes-til-sommerferievikar",
-   "company": "Sykehuset i Vestfold HF",
-   "title": "Sykepleiere og spesialsykepleiere søkes til sommerferievikariater 2027",
-   "kind": "summer",
-   "locations": [
-    "Tønsberg"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "d009b6af-70e3-40fe-b7c5-97b7de4b2ee0",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d009b6af-70e3-40fe-b7c5-97b7de4b2ee0"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "global-skatt-divisjon-naering--hores-det-spennende-ut-a-jobbe-med-skatt-for-internasjonale-",
-   "company": "Global skatt, divisjon næring",
-   "title": "Høres det spennende ut å jobbe med skatt for internasjonale konsern?",
-   "kind": "internship",
-   "locations": [
-    "Sandvika",
-    "Stavanger"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "f85512bc-b953-4392-a9bb-6dd1d23bf26a",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/f85512bc-b953-4392-a9bb-6dd1d23bf26a"
-    }
-   ],
-   "flags": [],
-   "score": 74,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "sykehuset-i-vestfold-hf--medisinstudenter-3-og-4-aret-onskes-til-a-utfore-delegerte-s",
-   "company": "Sykehuset i Vestfold HF",
-   "title": "Medisinstudenter 3. og 4. året ønskes til å utføre delegerte sykepleieoppgaver - Sommerferievikariat 2027",
-   "kind": "summer",
-   "locations": [
-    "Tønsberg"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "44587f36-7c2d-4571-8a36-d438b975672b",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/44587f36-7c2d-4571-8a36-d438b975672b"
-    }
-   ],
-   "flags": [
-    "year",
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "sykehuset-i-vestfold-hf--2-ars-sykepleierstudent-sommerjobb-med-delegerte-sykepleieop",
-   "company": "Sykehuset i Vestfold HF",
-   "title": "2. års sykepleierstudent?  Sommerjobb med delegerte sykepleieoppgaver",
-   "kind": "summer",
-   "locations": [
-    "Tønsberg"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "d53d583c-e86c-451b-b829-85ce61f4dd14",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d53d583c-e86c-451b-b829-85ce61f4dd14"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "direktoratet-for-forvaltning-og-okonomistyring--vil-du-bidra-til-a-styrke-styring-internkontroll-og-anskaffe",
-   "company": "DIREKTORATET FOR FORVALTNING OG ØKONOMISTYRING",
-   "title": "Vil du bidra til å styrke styring, internkontroll og anskaffelser i en av statens viktigste IT-organisasjoner?",
-   "kind": "internship",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-11-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "96f80d1f-97b4-40b4-b6ee-acfe31d9cbf6",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/96f80d1f-97b4-40b4-b6ee-acfe31d9cbf6"
-    }
-   ],
-   "flags": [],
-   "score": 74,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "akershus-fylkeskommune-kjelle-videregaende-skole--internatmedarbeider-kjelle-videregaende-skole",
-   "company": "Akershus fylkeskommune, Kjelle videregående skole",
-   "title": "Internatmedarbeider - Kjelle videregående skole",
-   "kind": "internship",
-   "locations": [
-    "Aurskog-Høland"
-   ],
-   "deadline": "2026-11-16",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "d4fa1d95-1d1c-4ca0-9abb-a73873c5865c",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d4fa1d95-1d1c-4ca0-9abb-a73873c5865c"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 27,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "universitetet-i-oslo--forsker-prosjektkoordinator-praksisnett",
-   "company": "Universitetet i Oslo",
-   "title": "Forsker/Prosjektkoordinator PraksisNett",
-   "kind": "internship",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-11-17",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "5534f475-14ba-4e1f-b344-10b4d55d1ad6",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/5534f475-14ba-4e1f-b344-10b4d55d1ad6"
-    }
-   ],
-   "flags": [],
-   "score": 74,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "espira-blakstad--vil-du-vaere-med-a-skape-pedagogisk-kvalitet-i-praksis-hver-",
-   "company": "Espira Blakstad",
-   "title": "Vil du være med å skape pedagogisk kvalitet i praksis – hver dag?",
-   "kind": "internship",
-   "locations": [
-    "Vettre"
-   ],
-   "deadline": "2026-11-18",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "fbc16544-e4ef-4c5d-98b5-4facfa48a16a",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/fbc16544-e4ef-4c5d-98b5-4facfa48a16a"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 27,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "teknologi-og-eiendomsdrift-baerum-kommune--intern-rorlegger",
-   "company": "Teknologi og eiendomsdrift, Bærum kommune",
-   "title": "Intern rørlegger",
-   "kind": "internship",
-   "locations": [
-    "Vøyenenga"
-   ],
-   "deadline": "2026-11-18",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "409fb8d9-c15e-4930-ae05-317af4e66292",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/409fb8d9-c15e-4930-ae05-317af4e66292"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 33,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "orkdal-sjukehus-st-olavs-hospital--har-du-lyst-pa-en-engasjerende-og-meningsfull-sommerjobb-med",
-   "company": "Orkdal Sjukehus, St. Olavs hospital",
-   "title": "Har du lyst på en engasjerende og meningsfull sommerjobb med mulighet for videre engasjement?",
-   "kind": "summer",
-   "locations": [
-    "Orkanger"
-   ],
-   "deadline": "2026-11-19",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "382a9a8b-cc33-4ccb-baa9-a25c6e4b20d4",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/382a9a8b-cc33-4ccb-baa9-a25c6e4b20d4"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 42,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "klinikk-for-rus-og-avhengighetsmedisin-st-olavs-hospital--brenner-hjertet-ditt-for-ruspasienten-vi-soker-ferievikarer-",
-   "company": "Klinikk for rus- og avhengighetsmedisin, St. Olavs hospital",
-   "title": "Brenner hjertet ditt for ruspasienten? Vi søker ferievikarer for sommeren 2027!",
-   "kind": "summer",
-   "locations": [
-    "Trondheim"
-   ],
-   "deadline": "2026-11-19",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "db4ccdbe-5149-4e56-9a55-0099f6e71ba1",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/db4ccdbe-5149-4e56-9a55-0099f6e71ba1"
-    }
-   ],
-   "flags": [],
-   "score": 77,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "hjerte-og-thoraxklinikken-st-olavs-hospital--sommerjobb-med-puls-bli-ferievikar-pa-hjerte-og-thoraxklinik",
-   "company": "Hjerte- og thoraxklinikken  St. Olavs hospital",
-   "title": "Sommerjobb med puls – bli ferievikar på Hjerte- og thoraxklinikken",
-   "kind": "summer",
-   "locations": [
-    "Trondheim"
-   ],
-   "deadline": "2026-11-19",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "3839c789-b7ea-48a6-b84a-ff8354163a9b",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/3839c789-b7ea-48a6-b84a-ff8354163a9b"
-    }
-   ],
-   "flags": [
-    "not-it"
-   ],
-   "score": 30,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "roros-sykehus-st-olavs-hospital--ferievikarer-2027-vil-du-jobbe-pa-roros-sykehus-i-sommer",
-   "company": "RØROS SYKEHUS, St. Olavs hospital",
-   "title": "Ferievikarer 2027. Vil du jobbe på Røros sykehus i sommer?",
-   "kind": "summer",
-   "locations": [
-    "Røros"
-   ],
-   "deadline": "2026-11-19",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "c33a4f1d-13ca-46e0-88ff-ebdf688d5929",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c33a4f1d-13ca-46e0-88ff-ebdf688d5929"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "espira-skolegata--vil-du-vaere-med-a-skape-pedagogisk-kvalitet-i-praksis-hver-",
-   "company": "Espira Skolegata",
-   "title": "Vil du være med å skape pedagogisk kvalitet i praksis – hver dag?",
-   "kind": "internship",
-   "locations": [
-    "Askim"
-   ],
-   "deadline": "2026-11-19",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "858340ab-58e0-42a4-9f9c-56b75fc820dd",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/858340ab-58e0-42a4-9f9c-56b75fc820dd"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 27,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "klaebu-helse-og-velferdssenter-trondheim-kommune--sommervikarer",
-   "company": "Klæbu helse- og velferdssenter, Trondheim kommune",
-   "title": "Sommervikarer",
-   "kind": "summer",
-   "locations": [
-    "Klæbu"
-   ],
-   "deadline": "2026-11-20",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "006f0861-0237-4231-8b52-aca2e6c0d2cb",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/006f0861-0237-4231-8b52-aca2e6c0d2cb"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 42,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "jurek-norge--treasury-manager-til-floatel-international",
-   "company": "Jurek Norge",
-   "title": "Treasury Manager til Floatel International",
-   "kind": "internship",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-11-22",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "d94b9549-d9ce-4c56-bc58-fc118d8dd617",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d94b9549-d9ce-4c56-bc58-fc118d8dd617"
-    }
-   ],
-   "flags": [],
-   "score": 56,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "lillehammer-medisin-sykehuset-innlandet-hf--sommervikar-vikar-for-lis1",
-   "company": "Lillehammer medisin, Sykehuset Innlandet HF",
-   "title": "Sommervikar - vikar for LIS1",
-   "kind": "summer",
-   "locations": [
-    "Lillehammer"
-   ],
-   "deadline": "2026-11-22",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "646dd8f8-4be6-4eac-a32f-7c4a52ebf8ff",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/646dd8f8-4be6-4eac-a32f-7c4a52ebf8ff"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "skatteetaten-it--vil-du-utvikle-losninger-som-pavirker-bade-internasjonal-sel",
-   "company": "Skatteetaten, IT",
-   "title": "Vil du utvikle løsninger som påvirker både internasjonal selskapsbeskatning og arbeidet mot svindel?",
-   "kind": "internship",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-11-23",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "7beb975b-4517-4252-8f0c-90cbc12ee71c",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7beb975b-4517-4252-8f0c-90cbc12ee71c"
-    }
-   ],
-   "flags": [],
-   "score": 80,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "innlandet-fylkeskommune-samfunn-og-naering--samfunn-og-naering-radgiver-nordisk-og-internasjonalt-samarb",
-   "company": "Innlandet fylkeskommune Samfunn og næring",
-   "title": "Samfunn og næring - Rådgiver nordisk og internasjonalt samarbeid",
-   "kind": "internship",
-   "locations": [
-    "Hamar"
-   ],
-   "deadline": "2026-11-24",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "1564ac64-dfa0-44a8-ac34-a8b989521240",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/1564ac64-dfa0-44a8-ac34-a8b989521240"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 27,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "aker-bp--sommerstudent-2027-subsurface-data-science",
@@ -1670,61 +365,7 @@
    ],
    "score": 36,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "drobak-vertshus-as--bartender-server-sommervikar-drobak-pub",
-   "company": "Drøbak Vertshus As",
-   "title": "Bartender/server - Sommervikar - Drøbak Pub",
-   "kind": "summer",
-   "locations": [
-    "Drøbak",
-    "Frogn"
-   ],
-   "deadline": "2026-11-30",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "69e1c117-8c63-4da0-a8eb-13c1d5e9efc8",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/69e1c117-8c63-4da0-a8eb-13c1d5e9efc8"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "helse-stavanger-hf--vi-soker-legevikar-sommeren-2027",
-   "company": "Helse Stavanger HF",
-   "title": "Vi søker legevikar sommeren 2027",
-   "kind": "summer",
-   "locations": [
-    "Stavanger"
-   ],
-   "deadline": "2026-11-30",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "ec4bf0da-1047-4b85-bcef-61c20b418318",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/ec4bf0da-1047-4b85-bcef-61c20b418318"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "solvera--internship-som-utvikler-i-solvera",
@@ -1748,7 +389,7 @@
    "flags": [],
    "score": 56,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "disruptive-technologies--summer-internship-2027-disruptive-technologies",
@@ -1771,190 +412,9 @@
     }
    ],
    "flags": [],
-   "score": 71,
+   "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "kommunalteknikk-trondheim-kommune--sommerjobb-vann-og-avlop",
-   "company": "Kommunalteknikk               , Trondheim kommune",
-   "title": "Sommerjobb vann og avløp",
-   "kind": "summer",
-   "locations": [
-    "Trondheim"
-   ],
-   "deadline": "2026-12-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "3a911c11-974c-454d-8d48-1e9d586b4e0f",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/3a911c11-974c-454d-8d48-1e9d586b4e0f"
-    }
-   ],
-   "flags": [],
-   "score": 77,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "orkdal-helsetun-orkland-kommune--sommerjobb-med-mening-bli-ferievikar-ved-orkdal-helsetun",
-   "company": "Orkdal helsetun, Orkland kommune",
-   "title": "Sommerjobb med mening - bli ferievikar ved Orkdal helsetun",
-   "kind": "summer",
-   "locations": [
-    "Fannrem"
-   ],
-   "deadline": "2026-12-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "e5a4d0ed-153d-4722-87f8-bbdf01a6d8c6",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/e5a4d0ed-153d-4722-87f8-bbdf01a6d8c6"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "espira-holum--vil-du-vaere-med-a-skape-pedagogisk-kvalitet-i-praksis-hver-",
-   "company": "Espira Holum",
-   "title": "Vil du være med å skape pedagogisk kvalitet i praksis – hver dag?",
-   "kind": "internship",
-   "locations": [
-    "Holum"
-   ],
-   "deadline": "2026-12-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "d0b87f87-8e26-4ad6-a47f-0ac3fd7b79bf",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d0b87f87-8e26-4ad6-a47f-0ac3fd7b79bf"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 27,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "saga-adventures-lofoten--kayak-guide-couple-wanted-summer-2025-in-lofoten",
-   "company": "Saga Adventures Lofoten",
-   "title": "Kayak Guide Couple Wanted: Summer 2025 in Lofoten.",
-   "kind": "summer",
-   "locations": [
-    "Reine",
-    "Moskenes"
-   ],
-   "deadline": "2026-12-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "4c4a7bd1-867a-42f1-bb8a-eabb020bdf00",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/4c4a7bd1-867a-42f1-bb8a-eabb020bdf00"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "eduplanet-as--internasjonal-studieveileder-100-vikariat",
-   "company": "Eduplanet As",
-   "title": "Internasjonal studieveileder – 100 % vikariat",
-   "kind": "internship",
-   "locations": [
-    "Ås"
-   ],
-   "deadline": "2026-12-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "b5ba6da8-c306-48bd-94cb-8ec112b511cc",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b5ba6da8-c306-48bd-94cb-8ec112b511cc"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 21,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "seksjon-for-sommerskolen-sesong-oslo-kommune-utdanningsetate--utdanningspraksis-var-2027-sommerskolen-oslo",
-   "company": "Seksjon for sommerskolen sesong, Oslo kommune, Utdanningsetaten",
-   "title": "Utdanningspraksis, Vår 2027 Sommerskolen Oslo",
-   "kind": "summer",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-12-04",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "7bb4a472-7c69-47b8-8cd9-3adc3d48c554",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7bb4a472-7c69-47b8-8cd9-3adc3d48c554"
-    }
-   ],
-   "flags": [],
-   "score": 89,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "bemanningsavdelingen-akershus-universitetssykehus-hf--sok-sommerjobb-ved-ahus-2027-fa-relevant-erfaring-og-en-laer",
-   "company": "Bemanningsavdelingen, Akershus universitetssykehus HF",
-   "title": "Søk sommerjobb ved Ahus 2027 - Få relevant erfaring og en lærerik sommer!",
-   "kind": "summer",
-   "locations": [
-    "Lørenskog"
-   ],
-   "deadline": "2026-12-07",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "02fd9ab4-a90f-40fb-916d-ea64c0926541",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/02fd9ab4-a90f-40fb-916d-ea64c0926541"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "vespa--sommerjobb-2027-vespa",
@@ -1983,296 +443,9 @@
    "flags": [
     "year"
    ],
-   "score": 60,
+   "score": 30,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "andoy-kommune-helse-og-mestring--sommervikar-helse-og-mestring-2027",
-   "company": "Andøy kommune Helse og mestring",
-   "title": "Sommervikar helse og mestring 2027",
-   "kind": "summer",
-   "locations": [
-    "Andenes"
-   ],
-   "deadline": "2026-12-13",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "34f6c753-27aa-47e4-ae89-1c4a76d8ddf1",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/34f6c753-27aa-47e4-ae89-1c4a76d8ddf1"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "stubstad-betong-as--laerling-sommerjobb-i-betongfag-hos-stubstad-betong-kristian",
-   "company": "Stubstad Betong As",
-   "title": "Lærling/Sommerjobb i betongfag hos Stubstad Betong - Kristiansand S",
-   "kind": "summer",
-   "locations": [
-    "Kristiansand S"
-   ],
-   "deadline": "2026-12-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "52753ca9-1fd1-4562-9145-d9b7a2ec8d8a",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/52753ca9-1fd1-4562-9145-d9b7a2ec8d8a"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 42,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "stab-lis-leger-sykehuset-telemark-hf--medisinstudent-med-lisens-lege-uten-lis1-ferievikar-sommeren",
-   "company": "Stab Lis leger, Sykehuset Telemark HF",
-   "title": "Medisinstudent med lisens / lege uten LIS1 - ferievikar sommeren 2027",
-   "kind": "summer",
-   "locations": [
-    "Skien"
-   ],
-   "deadline": "2026-12-15",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "745fdbf8-cd36-41c1-878a-d3ef90e401d5",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/745fdbf8-cd36-41c1-878a-d3ef90e401d5"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "intensiv-lillehammer-sykehuset-innlandet-hf--sommervikarer-2027",
-   "company": "Intensiv, Lillehammer, Sykehuset Innlandet HF",
-   "title": "Sommervikarer 2027",
-   "kind": "summer",
-   "locations": [
-    "Lillehammer"
-   ],
-   "deadline": "2026-12-31",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "66fff05c-7610-4174-991f-a3d2860401eb",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/66fff05c-7610-4174-991f-a3d2860401eb"
-    }
-   ],
-   "flags": [
-    "year",
-    "location"
-   ],
-   "score": 1,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "spiterstulen-turisthytte--turisthyttemedarbeider-for-vinteren-2027",
-   "company": "Spiterstulen Turisthytte",
-   "title": "Turisthyttemedarbeider for vinteren 2027",
-   "kind": "winter",
-   "locations": [
-    "Lom"
-   ],
-   "deadline": "2026-12-31",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "60392a54-29d6-4a20-9d8d-83d8bc67ffe0",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/60392a54-29d6-4a20-9d8d-83d8bc67ffe0"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "safey-as--salgskonsulent-internett-og-tv",
-   "company": "Safey As",
-   "title": "Salgskonsulent internett og TV",
-   "kind": "internship",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-12-31",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "56bd95c8-b285-48e7-a2f0-a155f1eec877",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/56bd95c8-b285-48e7-a2f0-a155f1eec877"
-    }
-   ],
-   "flags": [],
-   "score": 56,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "trondelag-fylkeskommune--sommerstudenter-hos-samferdselsavdelingen-i-trondelag-fylkes",
-   "company": "Trøndelag fylkeskommune",
-   "title": "Sommerstudenter hos Samferdselsavdelingen i Trøndelag fylkeskommune",
-   "kind": "summer",
-   "locations": [
-    "Trondheim"
-   ],
-   "deadline": "2026-12-31",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "dec41bf1-ad5e-4b77-a774-d9bd466cea6e",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/dec41bf1-ad5e-4b77-a774-d9bd466cea6e"
-    }
-   ],
-   "flags": [],
-   "score": 89,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "o-learys--kokk-hos-o-learys-hemsedal-vintersesongen-26-27",
-   "company": "O'Learys",
-   "title": "Kokk hos O'Learys Hemsedal  Vintersesongen 26/27",
-   "kind": "winter",
-   "locations": [
-    "Hemsedal"
-   ],
-   "deadline": "2027-01-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "4465681f-8b04-4e69-8580-e0d34f09e192",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/4465681f-8b04-4e69-8580-e0d34f09e192"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "enhet-kirurgiske-og-ortopediske-leger-hammerfest-sykehus-fin--sommervikarer-lis-1",
-   "company": "Enhet Kirurgiske og ortopediske leger, Hammerfest sykehus, Finnmarkssykehuset HF",
-   "title": "Sommervikarer - LIS 1",
-   "kind": "summer",
-   "locations": [
-    "Hammerfest"
-   ],
-   "deadline": "2027-01-03",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "48fd971e-dea4-4a06-8735-488fe8cf4ae0",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/48fd971e-dea4-4a06-8735-488fe8cf4ae0"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "enhet-akuttmottak-og-medisinske-leger-hammerfest-sykehus-fin--sommervikarer-lis1",
-   "company": "Enhet Akuttmottak og medisinske leger, Hammerfest sykehus, Finnmarkssykehuset HF",
-   "title": "Sommervikarer - LIS1",
-   "kind": "summer",
-   "locations": [
-    "Hammerfest"
-   ],
-   "deadline": "2027-01-03",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "4380196d-bc55-4d18-bc23-f9e9bbfdb2c9",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/4380196d-bc55-4d18-bc23-f9e9bbfdb2c9"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "oslo-kommune-oslobygg-kf--summer-internship-2027",
-   "company": "Oslo kommune, Oslobygg KF",
-   "title": "Summer Internship 2027",
-   "kind": "summer",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2027-01-10",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "018b7b4b-b8c4-4bc5-bdb2-436dfc2fb5bb",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/018b7b4b-b8c4-4bc5-bdb2-436dfc2fb5bb"
-    }
-   ],
-   "flags": [
-    "year"
-   ],
-   "score": 48,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "statens-vegvesen--vi-soker-100-sommerstudenter-fra-nord-til-sor",
@@ -2298,9 +471,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 77,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "statsbygg--summer-internship-2027-bruk-kunnskapen-din-til-a-lose-utford",
@@ -2322,88 +495,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 77,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "akuttmottak-gjovik-sykehuset-innlandet-hf--sommervikarer-2027",
-   "company": "Akuttmottak, Gjøvik, Sykehuset Innlandet HF",
-   "title": "Sommervikarer 2027",
-   "kind": "summer",
-   "locations": [
-    "Gjøvik"
-   ],
-   "deadline": "2027-01-31",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "91f2d4d3-aba2-400c-bb94-880409f9f32b",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/91f2d4d3-aba2-400c-bb94-880409f9f32b"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "sykehuset-levanger-helse-nord-trondelag-hf--ferievikarer-sommer-2027",
-   "company": "Sykehuset Levanger, Helse Nord-Trøndelag HF",
-   "title": "Ferievikarer sommer 2027",
-   "kind": "summer",
-   "locations": [
-    "Levanger"
-   ],
-   "deadline": "2027-02-14",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "51fdd159-5f13-49fe-9e3b-edfff2cfdd70",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/51fdd159-5f13-49fe-9e3b-edfff2cfdd70"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "sykehuset-namsos-helse-nord-trondelag-hf--ferievikarer-sommer-2027",
-   "company": "Sykehuset Namsos, Helse Nord-Trøndelag HF",
-   "title": "Ferievikarer sommer 2027",
-   "kind": "summer",
-   "locations": [
-    "Namsos"
-   ],
-   "deadline": "2027-02-14",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "76c155e6-15c5-4b7a-9eb7-074cae803ad6",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/76c155e6-15c5-4b7a-9eb7-074cae803ad6"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "gintel-as--summer-internship-2027",
@@ -2425,248 +519,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 65,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "reine-rorbuer--kayak-guide-summer-in-reine-lofoten",
-   "company": "Reine Rorbuer",
-   "title": "Kayak Guide – Summer in Reine, Lofoten",
-   "kind": "summer",
-   "locations": [
-    "Reine"
-   ],
-   "deadline": "2027-03-27",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "536e9ffd-4401-409e-8fae-e934960f3768",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/536e9ffd-4401-409e-8fae-e934960f3768"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "skybert-pt-as--daglig-leder-forretningsutvikler-bygg-fremtidens-skybert-i-n",
-   "company": "Skybert-pt As",
-   "title": "Daglig leder / Forretningsutvikler – Bygg fremtidens Skybert i Norge og internasjonalt",
-   "kind": "internship",
-   "locations": [
-    "Haugesund"
-   ],
-   "deadline": "2027-03-31",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "cebebff1-0fec-4ba2-9ac7-2b580f029627",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cebebff1-0fec-4ba2-9ac7-2b580f029627"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 33,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "night-day-security-as--sommerjobb-2027-vi-soker-festivalvektere",
-   "company": "Night & Day Security As",
-   "title": "Sommerjobb 2027 – Vi søker festivalvektere!",
-   "kind": "summer",
-   "locations": [
-    "Asker",
-    "Lillehammer",
-    "Oslo"
-   ],
-   "deadline": "2027-03-31",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "cb5b40f2-c68b-4dbf-90ae-479e9411f4eb",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cb5b40f2-c68b-4dbf-90ae-479e9411f4eb"
-    }
-   ],
-   "flags": [],
-   "score": 77,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "restauranthuset-malin-as--dyktige-servitorer-sokes-pa-restauranthuset-malin-i-sogndal-",
-   "company": "Restauranthuset Malin As",
-   "title": "Dyktige servitører søkes på Restauranthuset Malin i Sogndal for julebord og sommer sesong! !",
-   "kind": "summer",
-   "locations": [
-    "Sogndal"
-   ],
-   "deadline": "2027-04-30",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "6e6e4545-2df5-44f1-b39c-44dbf9ed9b49",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/6e6e4545-2df5-44f1-b39c-44dbf9ed9b49"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "intensiv-gjovik-sykehuset-innlandet-hf--sommervikarer-2027",
-   "company": "Intensiv, Gjøvik, Sykehuset Innlandet HF",
-   "title": "Sommervikarer 2027",
-   "kind": "summer",
-   "locations": [
-    "Gjøvik"
-   ],
-   "deadline": "2027-05-28",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "7ea8404b-1348-4064-8c62-250014dda878",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7ea8404b-1348-4064-8c62-250014dda878"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "gjovik-kommune-heldogns-omsorgsboliger--vil-du-ha-en-sommerjobb-der-du-gjor-en-forskjell-for-mennesk",
-   "company": "Gjøvik kommune Heldøgns omsorgsboliger",
-   "title": "Vil du ha en sommerjobb der du gjør en forskjell for mennesker hver eneste dag?",
-   "kind": "summer",
-   "locations": [
-    "Gjøvik"
-   ],
-   "deadline": "2027-06-20",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "63d9337a-a006-48cf-b6d7-2e8d4fcc272d",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/63d9337a-a006-48cf-b6d7-2e8d4fcc272d"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "gjovik-kommune-hjemme-og-korttidstjenester--sommerjobb-i-kortidsavdelinger-pa-sykehjem",
-   "company": "Gjøvik kommune Hjemme og korttidstjenester",
-   "title": "Sommerjobb i kortidsavdelinger på sykehjem",
-   "kind": "summer",
-   "locations": [
-    "Gjøvik"
-   ],
-   "deadline": "2027-06-30",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "dc83dab3-f93c-4be7-828a-373784c25600",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/dc83dab3-f93c-4be7-828a-373784c25600"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "grillsjefen-as--grillkokk-sokes-til-spennende-og-variert-sommerjobb-i-oslo",
-   "company": "Grillsjefen As",
-   "title": "Grillkokk søkes til spennende og variert sommerjobb i Oslo",
-   "kind": "summer",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2027-08-31",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "5c379446-f10a-48dc-afab-1f64fa91ea92",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/5c379446-f10a-48dc-afab-1f64fa91ea92"
-    }
-   ],
-   "flags": [
-    "not-it"
-   ],
-   "score": 30,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "people-haugesund--innkjoper-purchaser-internasjonal-handel-og-leverandorkontak",
-   "company": "People Haugesund",
-   "title": "Innkjøper / Purchaser – internasjonal handel og leverandørkontakt",
-   "kind": "internship",
-   "locations": [
-    "Haugesund"
-   ],
-   "deadline": "2039-01-01",
-   "rolling": false,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "2f830ed7-a3d3-4853-b4e0-3f9fdffba986",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/2f830ed7-a3d3-4853-b4e0-3f9fdffba986"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "autodesk--software-engineering-intern-summer-2027",
@@ -2688,9 +543,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "jetbrains--jetbrains-internships",
@@ -2710,9 +565,9 @@
     }
    ],
    "flags": [],
-   "score": 77,
+   "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "cisco--software-engineer-summer-internship",
@@ -2734,9 +589,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "arm-norway-as--summer-internship-programs-2027",
@@ -2758,9 +613,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "thales-norway-as--sommerjobb-oslo-2027",
@@ -2782,9 +637,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "thales-norway-as--sommerjobb-trondheim-2027",
@@ -2806,9 +661,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "pexip--software-engineers-internship-summer-2027",
@@ -2830,9 +685,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "optio-incentives--optio-incentives-summer-internship",
@@ -2854,9 +709,9 @@
     }
    ],
    "flags": [],
-   "score": 95,
+   "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "sopra-steria--sommerjobb-2027-teknologi",
@@ -2881,88 +736,9 @@
    "flags": [
     "year"
    ],
-   "score": 60,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "nesfjellet-alpin-as--gjor-vinterdrommen-til-en-jobb-servicemedarbeider-nesfjellet",
-   "company": "Nesfjellet Alpin As",
-   "title": "Gjør vinterdrømmen til en jobb. Servicemedarbeider Nesfjellet",
-   "kind": "winter",
-   "locations": [
-    "Nesbyen"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "44b84060-ca15-4abf-aca1-b0c544a14c03",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/44b84060-ca15-4abf-aca1-b0c544a14c03"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 21,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "viltgarden-as--viltgarden-as-soker-sommerhjelp-og-laerling",
-   "company": "Viltgarden As",
-   "title": "Viltgarden as søker sommerhjelp og lærling",
-   "kind": "summer",
-   "locations": [
-    "Iveland"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "162eb15b-bd48-4d45-976c-f7cc7503475c",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/162eb15b-bd48-4d45-976c-f7cc7503475c"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
    "score": 36,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "nordseter-drift-renholdsservice--intern-renholder-nordseter",
-   "company": "Nordseter Drift Renholdsservice",
-   "title": "Intern renholder Nordseter",
-   "kind": "internship",
-   "locations": [
-    "Lillehammer"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "7291f326-1537-4185-895e-b8057375c770",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7291f326-1537-4185-895e-b8057375c770"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "surplusmap--internship-data-engineer",
@@ -2984,190 +760,9 @@
     }
    ],
    "flags": [],
-   "score": 80,
+   "score": 56,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "dedicare-as--sykepleiere-til-kristiansund-i-sommeren-2027",
-   "company": "Dedicare AS",
-   "title": "Sykepleiere til Kristiansund i sommeren 2027",
-   "kind": "summer",
-   "locations": [
-    "Kristiansund N"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "eefd821a-0018-4020-a83c-504ff5e8b0e0",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/eefd821a-0018-4020-a83c-504ff5e8b0e0"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "lofotr-naeringsdrift-as--guide-museum-vert-i-sommersesong-ved-norsk-fiskevaersmuseum-",
-   "company": "Lofotr Næringsdrift AS",
-   "title": "Guide/Museum vert i sommersesong ved Norsk Fiskeværsmuseum på  Å",
-   "kind": "summer",
-   "locations": [
-    "Sørvågen",
-    "Moskenes"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "9be2b5c4-a71f-44bc-9237-2cc9c09d66c0",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/9be2b5c4-a71f-44bc-9237-2cc9c09d66c0"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "skagerak-consulting--hr-radgiver-hr-advisor-bred-rolle-i-internasjonalt-teknologi",
-   "company": "Skagerak Consulting",
-   "title": "HR - Rådgiver / HR Advisor - bred rolle i internasjonalt teknologiselskap",
-   "kind": "internship",
-   "locations": [
-    "Larvik"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "d952e23e-40fb-46ab-aff0-d9dee010854c",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d952e23e-40fb-46ab-aff0-d9dee010854c"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 45,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "add-persona-as--ledig-na-bli-en-del-av-et-stort-og-anerkjent-internasjonalt-",
-   "company": "Add Persona AS",
-   "title": "Ledig nå? Bli en del av et stort og anerkjent internasjonalt selskap",
-   "kind": "internship",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "4e1c6ee3-bd2f-4662-b27f-6fd4d5cc88fe",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/4e1c6ee3-bd2f-4662-b27f-6fd4d5cc88fe"
-    }
-   ],
-   "flags": [],
-   "score": 68,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "dedicare-as-nurse-norge--jordmor-sokes-til-flere-oppdrag-i-nord-norge-gjennom-host-vi",
-   "company": "Dedicare AS - Nurse Norge",
-   "title": "Jordmor søkes til flere oppdrag i Nord Norge gjennom høst/vinter",
-   "kind": "winter",
-   "locations": [
-    "Tromsø"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "e7774a44-c65a-4772-b8eb-2549cc2240aa",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/e7774a44-c65a-4772-b8eb-2549cc2240aa"
-    }
-   ],
-   "flags": [
-    "not-it",
-    "location"
-   ],
-   "score": 0,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "maskineriet-oslo--sommerjobb-eller-karrierestart-og-tjene-godt-bli-med-i-norge",
-   "company": "Maskineriet Oslo",
-   "title": "Sommerjobb eller karrierestart og tjene godt? Bli med i Norges største og beste callcenter!",
-   "kind": "summer",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "7ba4c83d-10fe-458c-8568-2ac822bd9017",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7ba4c83d-10fe-458c-8568-2ac822bd9017"
-    }
-   ],
-   "flags": [],
-   "score": 71,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "nordicepod-as--site-technicians-med-gr-l-dsb-til-internasjonalt-datasenterp",
-   "company": "NORDICEPOD AS",
-   "title": "Site Technicians med GR. L/DSB til internasjonalt datasenterprosjekt i Narvik",
-   "kind": "internship",
-   "locations": [
-    "Narvik"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "f9fd96e9-fd63-444c-be50-291baf114d57",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/f9fd96e9-fd63-444c-be50-291baf114d57"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 45,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "snakker-as--internship-hos-snakker-bygg-erfaring-innen-ai-og-teknologi",
@@ -3189,35 +784,9 @@
     }
    ],
    "flags": [],
-   "score": 80,
+   "score": 74,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "sommerseth-as-avd-verksted-narvik--bli-kundemottaker-hos-sommerseth-as-i-narvik",
-   "company": "Sommerseth As Avd Verksted Narvik",
-   "title": "Bli kundemottaker hos Sommerseth AS i Narvik",
-   "kind": "summer",
-   "locations": [
-    "Ankenes"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "c55cd96a-5431-4b25-a8c7-342a02482dce",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c55cd96a-5431-4b25-a8c7-342a02482dce"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   },
   {
    "key": "buildright--forward-deployed-engineer-intern",
@@ -3239,87 +808,9 @@
     }
    ],
    "flags": [],
-   "score": 80,
+   "score": 62,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "hakkespetten-barnehage--hakkespetten-barnehage-soker-en-engasjert-barnehagemedarbeid",
-   "company": "Hakkespetten Barnehage",
-   "title": "Hakkespetten Barnehage søker en engasjert barnehagemedarbeider i vikariat fra nyttår frem til sommeren, med muligheter for mer!",
-   "kind": "summer",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "89586d85-f737-4576-80dd-09928b35c519",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/89586d85-f737-4576-80dd-09928b35c519"
-    }
-   ],
-   "flags": [
-    "not-it"
-   ],
-   "score": 30,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "holmestrand-internasjonale-montessoriskole--vi-soker-etter-laerere-og-eller-montessoripedagoger-til-holm",
-   "company": "Holmestrand Internasjonale Montessoriskole",
-   "title": "Vi søker etter lærere og/eller montessoripedagoger til Holmestrand Internasjonale Montessoriskole",
-   "kind": "internship",
-   "locations": [
-    "Holmestrand"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "c2541080-67e8-4f8c-8dea-45b66ab58048",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c2541080-67e8-4f8c-8dea-45b66ab58048"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 21,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
-  },
-  {
-   "key": "rvm-systems-as--vil-du-jobbe-med-microsoft-365-it-sikkerhet-og-moderne-it-dr",
-   "company": "RVM Systems AS",
-   "title": "Vil du jobbe med Microsoft 365, IT-sikkerhet og moderne IT-drift i et internasjonalt konsern?",
-   "kind": "internship",
-   "locations": [
-    "Drammen"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "fromYear": null,
-   "toYear": null,
-   "sources": [
-    {
-     "source": "nav",
-     "sourceId": "7ccd28f5-8e95-43ea-ae33-a1d7544e0f3a",
-     "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7ccd28f5-8e95-43ea-ae33-a1d7544e0f3a"
-    }
-   ],
-   "flags": [
-    "location"
-   ],
-   "score": 45,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-10-30T18:58:53.273Z"
+   "lastSeen": "2026-10-30T19:08:07.224Z"
   }
  ]
 }
