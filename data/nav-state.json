@@ -1,5 +1,5 @@
 {
- "cursor": "/api/v1/feed/379eaf5d-c267-4cd9-96e1-3f40dcc81864",
+ "cursor": "/api/v1/feed/c2fe7555-829b-41d0-900d-d587d8bfd457",
  "ads": {
   "5e3ea29f-1bbf-42f3-9a6b-dcfccce81f44": {
    "source": "nav",
@@ -191,28 +191,6 @@
     "Salg, butikk- og varehandel",
     "Salgskonsulent",
     "Selgere (engros)"
-   ]
-  },
-  "9028ae06-d5db-4aab-a302-72564804aab1": {
-   "source": "nav",
-   "sourceId": "9028ae06-d5db-4aab-a302-72564804aab1",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/9028ae06-d5db-4aab-a302-72564804aab1",
-   "company": "SNAKKER AS",
-   "title": "Internship hos Snakker, bygg erfaring innen AI og teknologi!",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "text": "Stillingstittel Internship hos Snakker – bygg erfaring innen AI og teknologi Om stillingen Er du nysgjerrig på AI, liker å utforske teknologi og ønsker praktisk erfaring i en startup? Snakker søker én intern som vil bidra til utviklingen av både plattformen og selskapet. Snakker utvikler en AI-plattform som gjør det enklere å drive og administrere virksomheter ved hjelp av naturlig språk. Arbeidsprosesser, dokumenter, kunder og ulike systemer samles på én plattform, slik at oppgaver kan utføres gjennom tale eller chat. Hos oss får du jobbe tett med grunnleggerne, bidra til reelle leveranser og lære hvordan teknologi, produktutvikling og kundebehov henger sammen. Kvalifikasjoner Du studerer, er nyutdannet eller har utviklet kompetansen din på egen hånd. Du har interesse for teknologi og AI og ønsker å bruke det du kan, samtidig som du lærer mer. Kanskje er du særlig interessert i utvikling, testing og tekniske løsninger. Eller kanskje liker du å utforske AI-verktøy og bruke dem til å forbedre arbeidsprosesser, løse kundeutfordringer og utvikle nye ideer. Erfaring med ChatGPT, Copilot, Claude, Cursor eller lignende verktøy er relevant. Vi legger stor vekt på personlighet. Du er fremoverlent, på hugget og tar initiativ. Du arbeider strukturert, følger opp oppgavene dine og undersøker mulighetene når du møter noe nytt. Du har en gründermentalitet og synes det er spennende å bidra på flere områder i et selskap under utvikling. Hva vil du jobbe med? Oppgavene tilpasses kompetansen din og det du ønsker å utvikle deg innen. Du vil kunne bidra med: Utvikling og videreutvikling av digitale løsninger Testing, feilsøking og kvalitetssikring av plattformen Utforsking av AI-verktøy og automatisering av arbeidsprosesser Onboarding og oppfølging av kunder Salg, kundedialog og kartlegging av behov Teknisk drift, support og vedlikehold Forbedring av produktet basert på tilbakemeldinger fra kunder Rollen kan utvikle seg underveis, og du får mulighet til å påvirke hvordan du bidrar. Hv",
-   "categories": [
-    "IT",
-    "Utvikling",
-    "utvikler av IKT-intelligenssystemer",
-    ".Net Utvikler",
-    "Utvikler av intelligente IKT-systemer",
-    "Applikasjonsprogrammerere",
-    "Systemanalytikere/-arkitekter"
    ]
   },
   "382a9a8b-cc33-4ccb-baa9-a25c6e4b20d4": {
