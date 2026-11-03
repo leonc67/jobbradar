@@ -78,8 +78,9 @@ export function App() {
     .filter((j) => kind === 'alle' || j.kind === kind)
     .filter((j) => matchesFilter(j, filter))
     .filter((j) => !q || `${j.company} ${j.title} ${j.locations.join(' ')}`.toLowerCase().includes(q))
-    // Løpende frister (uten dato) øverst, deretter nærmeste frist først
-    .sort((a, b) => (a.deadline ?? '').localeCompare(b.deadline ?? ''));
+    // Stillinger du ikke har søkt på først, og innenfor hver gruppe løpende frister
+    // (uten dato) øverst, deretter nærmeste frist
+    .sort((a, b) => Number(isSent(a)) - Number(isSent(b)) || (a.deadline ?? '').localeCompare(b.deadline ?? ''));
 
   const isNew = (j: Job) => !isTracked(j) && !!store.previousVisit && j.firstSeen > store.previousVisit;
   const newCount = shown.filter(isNew).length;
