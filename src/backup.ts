@@ -1,5 +1,5 @@
 import type { Job, JobKind } from '../shared/types.ts';
-import { slugify } from '../shared/text.ts';
+import { normalize, normalizeCompany, slugify } from '../shared/text.ts';
 import { sameJob } from '../scripts/merge.ts';
 import { fromLegacyStatus, migrate, type StoreData } from './store.ts';
 
@@ -27,7 +27,12 @@ export interface ImportItem {
   location?: string;
   kind?: JobKind;
   note?: string;
+  /** Fjerner stillingen med nøyaktig dette firmaet og denne tittelen, f.eks. en gammel samlelinje. */
+  remove?: boolean;
 }
+
+const sameText = (j: Job, raw: ImportItem) =>
+  normalizeCompany(j.company) === normalizeCompany(raw.company) && normalize(j.title) === normalize(raw.title);
 
 /** Legger til nytt notat under det gamle, uten å duplisere eller slette noe. */
 export function mergeNote(current: string, incoming: string): string {
@@ -61,10 +66,22 @@ export function importFile(
   const data: StoreData = { ...current, tracked: { ...current.tracked }, manual: [...current.manual] };
   let sentCount = 0;
   let rejectedCount = 0;
+  let removedCount = 0;
   const now = new Date().toISOString();
+  const items = (parsed as ImportItem[]).filter((raw) => raw?.company && raw?.title);
 
-  for (const raw of parsed as ImportItem[]) {
-    if (!raw?.company || !raw?.title) continue;
+  // Fjerninger først, så nye linjer ikke kobles til en linje som skal bort
+  for (const raw of items.filter((r) => r.remove)) {
+    for (const [key, t] of Object.entries(data.tracked)) {
+      if (sameText(t.job, raw)) {
+        delete data.tracked[key];
+        removedCount++;
+      }
+    }
+    data.manual = data.manual.filter((j) => !sameText(j, raw));
+  }
+
+  for (const raw of items.filter((r) => !r.remove)) {
     const legacy = fromLegacyStatus(raw.status);
     const rejected = Boolean(raw.rejected ?? legacy.rejected);
     const sent = Boolean(raw.sent ?? legacy.sent) || rejected;
@@ -72,7 +89,7 @@ export function importFile(
 
     // Stillinger du allerede følger prioriteres, så en oppdatering treffer riktig søknad
     const pool = [...Object.values(data.tracked).map((t) => t.job), ...data.manual, ...jobs];
-    let job = pool.find((j) => sameJob(j, raw));
+    let job = pool.find((j) => sameJob(j, raw) && (!raw.kind || j.kind === raw.kind));
     if (!job) {
       job = {
         key: `egen--${slugify(raw.company)}--${slugify(raw.title)}`,
@@ -107,6 +124,8 @@ export function importFile(
 
   return {
     data,
-    summary: `Importerte ${sentCount} sendte søknader, ${rejectedCount} av dem med avslag.`,
+    summary:
+      `Importerte ${sentCount} sendte søknader, ${rejectedCount} av dem med avslag.` +
+      (removedCount ? ` Fjernet ${removedCount} gamle linjer.` : ''),
   };
 }

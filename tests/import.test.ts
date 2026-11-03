@@ -17,6 +17,18 @@ describe('import', () => {
     expect(Object.values(data.tracked)[0]).toMatchObject({ sent: true, rejected: true });
   });
 
+  it('deler en samlelinje opp i flere søknader', () => {
+    let { data } = importFile(list([{ company: 'Solution Seeker', title: 'Winternship 2027 og Summer internship 2027', status: 'avslag', kind: 'winter' }]), empty, []);
+    ({ data } = importFile(list([
+      { company: 'Solution Seeker', title: 'Winternship 2027 og Summer internship 2027', remove: true },
+      { company: 'Solution Seeker', title: 'Winternship 2027', status: 'avslag', kind: 'winter' },
+      { company: 'Solution Seeker', title: 'Summer internship 2027', status: 'avslag', kind: 'summer' },
+    ]), data, []));
+    const titles = Object.values(data.tracked).map((t) => t.job.title).sort();
+    expect(titles).toEqual(['Summer internship 2027', 'Winternship 2027']);
+    expect(data.manual).toHaveLength(2);
+  });
+
   it('hopper over stillinger du ikke har søkt på', () => {
     const { data } = importFile(list([{ company: 'Monil', title: 'Summer Internship', status: 'droppet' }]), empty, []);
     expect(Object.keys(data.tracked)).toHaveLength(0);
