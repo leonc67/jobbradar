@@ -26,6 +26,22 @@ export interface ImportItem {
 
 const isStatus = (s: unknown): s is Status => STATUSES.some((x) => x.id === s);
 
+const FINAL: Status[] = ['intervju', 'tilbud', 'avslag', 'droppet'];
+const EARLY: Status[] = ['ny', 'interessert', 'pabegynt', 'sendt'];
+
+/** En import skal aldri flytte en søknad bakover, f.eks. fra Avslag tilbake til Sendt. */
+export function keepFinal(current: Status | undefined, incoming: Status): Status {
+  if (current && FINAL.includes(current) && EARLY.includes(incoming)) return current;
+  return incoming;
+}
+
+/** Legger til nytt notat under det gamle, uten å duplisere eller slette noe. */
+export function mergeNote(current: string, incoming: string): string {
+  const add = incoming.trim();
+  if (!add || current.includes(add)) return current;
+  return current ? `${current}\n${add}` : add;
+}
+
 /**
  * Leser en fil som enten er en full backup (erstatter alt) eller en liste med
  * stillinger (slås sammen med det som finnes). Stillinger i listen kobles mot
@@ -55,7 +71,8 @@ export function importFile(
 
   for (const raw of parsed as ImportItem[]) {
     if (!raw?.company || !raw?.title || !isStatus(raw.status)) continue;
-    const pool = [...jobs, ...data.manual];
+    // Stillinger du allerede følger prioriteres, så en oppdatering treffer riktig søknad
+    const pool = [...Object.values(data.tracked).map((t) => t.job), ...data.manual, ...jobs];
     let job = pool.find((j) => sameJob(j, raw));
     if (job) {
       matched++;
@@ -79,7 +96,13 @@ export function importFile(
       };
       data.manual.push(job);
     }
-    data.tracked[job.key] = { status: raw.status, note: raw.note ?? '', updatedAt: now, job };
+    const prev = data.tracked[job.key];
+    data.tracked[job.key] = {
+      status: keepFinal(prev?.status, raw.status),
+      note: mergeNote(prev?.note ?? '', raw.note ?? ''),
+      updatedAt: now,
+      job: prev?.job ?? job,
+    };
   }
 
   return {
