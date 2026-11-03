@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import type { Job, JobFlag, SourceId } from '../../shared/types.ts';
 import { daysUntil, relativeDays, shortDate, urgency } from '../dates.ts';
-import { STATUSES, type Status } from '../store.ts';
 
 export const SOURCE_NAMES: Record<SourceId, string> = {
   abakus: 'Abakus',
@@ -20,24 +19,40 @@ const KIND_TEXT = { summer: 'Sommer', winter: 'Winternship', internship: 'Intern
 
 interface Props {
   job: Job;
-  status: Status;
+  sent: boolean;
+  rejected: boolean;
   note: string;
   isNew: boolean;
   highlighted: boolean;
-  onStatus: (s: Status) => void;
+  onToggleSent: () => void;
+  onToggleRejected: () => void;
   onNote: (n: string) => void;
   onRemove?: () => void;
 }
 
-export function JobRow({ job, status, note, isNew, highlighted, onStatus, onNote, onRemove }: Props) {
+const CheckIcon = () => (
+  <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
+    <path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+const CrossIcon = () => (
+  <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
+    <path d="M4 4l8 8M12 4l-8 8" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+  </svg>
+);
+
+export function JobRow(props: Props) {
+  const { job, sent, rejected, note, isNew, highlighted, onToggleSent, onToggleRejected, onNote, onRemove } = props;
   const [open, setOpen] = useState(false);
   const [draft, setDraft] = useState(note);
   const u = urgency(job.deadline);
   const primaryUrl = job.sources[0]?.url;
+  const state = rejected ? 'is-rejected' : sent ? 'is-sent' : '';
 
   return (
-    <li id={`job-${job.key}`} className={`row status-${status} ${highlighted ? 'is-highlighted' : ''}`}>
-      <div className={`row-date urgency-${u}`}>
+    <li id={`job-${job.key}`} className={`row ${state} ${highlighted ? 'is-highlighted' : ''}`}>
+      <div className={`row-date urgency-${sent ? 'none' : u}`}>
         {job.deadline ? (
           <>
             <strong>{shortDate(job.deadline)}</strong>
@@ -46,7 +61,7 @@ export function JobRow({ job, status, note, isNew, highlighted, onStatus, onNote
         ) : (
           <>
             <strong>{job.rolling && job.sources[0]?.source !== 'manual' ? 'Løpende' : 'Ingen frist'}</strong>
-            <span>{job.sources[0]?.source === 'manual' ? 'ikke oppgitt' : 'ingen fast frist'}</span>
+            {job.sources[0]?.source !== 'manual' && <span>ingen fast frist</span>}
           </>
         )}
       </div>
@@ -73,16 +88,19 @@ export function JobRow({ job, status, note, isNew, highlighted, onStatus, onNote
               {job.fromYear === job.toYear ? `${job.fromYear}. trinn` : `${job.fromYear}.–${job.toYear}. trinn`}
             </span>
           )}
-          {job.sources.map((s) => (
-            <a key={s.source + s.sourceId} className="source" href={s.url} target="_blank" rel="noreferrer">
-              {SOURCE_NAMES[s.source]}
-            </a>
-          ))}
-          {job.flags.map((f) => (
-            <span key={f} className="flag">
-              {FLAG_TEXT[f]}
-            </span>
-          ))}
+          {job.sources
+            .filter((s) => s.url)
+            .map((s) => (
+              <a key={s.source + s.sourceId} className="source" href={s.url} target="_blank" rel="noreferrer">
+                {SOURCE_NAMES[s.source]}
+              </a>
+            ))}
+          {!sent &&
+            job.flags.map((f) => (
+              <span key={f} className="flag">
+                {FLAG_TEXT[f]}
+              </span>
+            ))}
         </p>
         {open && (
           <div className="row-note">
@@ -106,22 +124,29 @@ export function JobRow({ job, status, note, isNew, highlighted, onStatus, onNote
       </div>
 
       <div className="row-actions">
-        <label className="visually-hidden" htmlFor={`status-${job.key}`}>
-          Status for {job.company}
-        </label>
-        <select
-          id={`status-${job.key}`}
-          className={`status-select status-${status}`}
-          value={status}
-          onChange={(e) => onStatus(e.target.value as Status)}
+        <button
+          type="button"
+          className="toggle toggle-sent"
+          aria-pressed={sent}
+          onClick={onToggleSent}
+          title={sent ? 'Fjern haken hvis du ikke har sendt søknad' : 'Marker at du har sendt søknad'}
         >
-          {STATUSES.map((s) => (
-            <option key={s.id} value={s.id}>
-              {s.label}
-            </option>
-          ))}
-        </select>
-        <button type="button" className="ghost" aria-expanded={open} onClick={() => setOpen(!open)}>
+          <span className="toggle-box">{sent && <CheckIcon />}</span>
+          Sendt
+        </button>
+        {sent && (
+          <button
+            type="button"
+            className="toggle toggle-rejected"
+            aria-pressed={rejected}
+            onClick={onToggleRejected}
+            title={rejected ? 'Angre avslag' : 'Marker at du fikk avslag'}
+          >
+            <span className="toggle-box">{rejected && <CrossIcon />}</span>
+            Avslag
+          </button>
+        )}
+        <button type="button" className="ghost note-button" aria-expanded={open} onClick={() => setOpen(!open)}>
           {open ? 'Lukk' : note ? 'Endre notat' : 'Notat'}
         </button>
       </div>

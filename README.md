@@ -1,19 +1,18 @@
 # Jobbradar
 
-En personlig oversikt over sommerjobber, winternships og internships for IT-studenter. Et skript henter nye annonser hver morgen fra Abakus, itDAGENE og NAV, filtrerer bort det som ikke passer, og publiserer resultatet som en statisk nettside. På siden kan jeg følge hver søknad fra interessert til sendt, intervju, tilbud eller avslag.
+En personlig oversikt over sommerjobber, winternships og internships for IT-studenter. Et skript henter nye annonser hver morgen fra Abakus, itDAGENE og NAV, filtrerer bort det som ikke passer, og publiserer resultatet som en statisk nettside. På siden haker jeg av hvilke stillinger jeg har søkt på, og hvilke som har gitt avslag.
 
 **Live:** https://leonc67.github.io/jobbradar/
 
 ## Funksjoner
 
 - **Daglig henting** fra tre kilder via GitHub Actions, uten egen server
-- **Fristlinje** som viser de neste 60 dagene som en tidsakse
-- **Status per stilling**: Ny, Interessert, Påbegynt, Sendt, Intervju, Tilbud, Avslag, Droppet
-- **Tavlevisning** med én kolonne per status
+- **Oversikt øverst** med antall sendte søknader, avslag og ledige stillinger. Trykk på et tall for å filtrere
+- **Hake og kryss**: hak av «Sendt» når du har søkt, og «Avslag» hvis du får nei
 - **Relevansfilter** som skjuler stillinger for feil årstrinn, utenfor IT eller utenfor ønskede steder
 - **Duplikatsjekk** som slår sammen samme annonse fra flere kilder
 - **Notater**, egne stillinger (for eksempel fra finn.no), og eksport/import som JSON
-- **Personvern**: status og notater lagres bare i nettleseren (localStorage), aldri i repoet
+- **Personvern**: hakene og notatene lagres bare i nettleseren (localStorage), aldri i repoet
 
 ## Arkitektur
 
@@ -24,7 +23,7 @@ flowchart LR
   N[NAV stillingsfeed] --> F
   F[scripts/fetch-jobs.ts<br/>henting, filtrering, sammenslåing] --> J[(public/jobs.json)]
   J --> W[React-app på GitHub Pages]
-  W <--> L[(localStorage<br/>status og notater)]
+  W <--> L[(localStorage<br/>sendt, avslag og notater)]
 ```
 
 Hele løsningen er statisk. En planlagt GitHub Action kjører henteskriptet hver morgen, committer `public/jobs.json` hvis noe er endret, bygger siden med Vite og publiserer den til GitHub Pages.

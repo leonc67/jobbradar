@@ -1,10 +1,9 @@
 import { useRef, useState, type FormEvent } from 'react';
 import type { Job, JobKind } from '../../shared/types.ts';
 import { slugify } from '../../shared/text.ts';
-import { STATUSES, type Status } from '../store.ts';
 
 interface Props {
-  onAdd: (job: Job, status: Status) => void;
+  onAdd: (job: Job, sent: boolean) => void;
 }
 
 /** Skjema for å legge inn en stilling selv, f.eks. fra finn.no eller en karriereside. */
@@ -45,7 +44,7 @@ export function AddJobDialog({ onAdd }: Props) {
       firstSeen: now,
       lastSeen: now,
     };
-    onAdd(job, f.get('status') as Status);
+    onAdd(job, f.get('sent') === 'on');
     e.currentTarget.reset();
     setError('');
     ref.current?.close();
@@ -91,17 +90,11 @@ export function AddJobDialog({ onAdd }: Props) {
                 <option value="internship">Internship</option>
               </select>
             </label>
-            <label>
-              Status
-              <select name="status" defaultValue="interessert">
-                {STATUSES.map((s) => (
-                  <option key={s.id} value={s.id}>
-                    {s.label}
-                  </option>
-                ))}
-              </select>
-            </label>
           </div>
+          <label className="check-label">
+            <input type="checkbox" name="sent" />
+            Jeg har allerede sendt søknad
+          </label>
           {error && <p className="form-error">{error}</p>}
           <div className="dialog-actions">
             <button type="button" className="ghost" onClick={() => ref.current?.close()}>
