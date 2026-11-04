@@ -1,5 +1,5 @@
 {
- "cursor": "/api/v1/feed/9ad99e67-7ad8-4875-963a-1ba6bfe0e23a",
+ "cursor": "/api/v1/feed/e7f72674-967a-47c7-8031-7fb903f0aad3",
  "ads": {
   "7291f326-1537-4185-895e-b8057375c770": {
    "source": "nav",
@@ -732,6 +732,25 @@
     "Tekniker",
     "Operatører innen boring mv.",
     "Hjelpearbeidere i bygg"
+   ]
+  },
+  "e3e4c31d-4380-4ee1-bc0f-a12f633f3b22": {
+   "source": "nav",
+   "sourceId": "e3e4c31d-4380-4ee1-bc0f-a12f633f3b22",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/e3e4c31d-4380-4ee1-bc0f-a12f633f3b22",
+   "company": "Entur",
+   "title": "Teamleder Digital arbeidsplass (intern IT)",
+   "locations": [
+    "Oslo"
+   ],
+   "deadline": null,
+   "rolling": true,
+   "text": "Teamleder Digital arbeidsplass (intern IT) Hver morgen logger alle i Entur seg på maskinen, åpner Slack og går inn i Jira. Ingen tenker særlig over det, og det er nettopp poenget. Men når hele selskapet er brukerne dine, handler jobben om mer enn at ting virker. Du må forstå hva folk faktisk trenger, prioritere godt og ha en tydelig retning for tjenestene. Digital arbeidsplass har et dyktig team av spesialister med god kontroll på driften. Nå vil vi ta i bruk flere prinsipper fra produktmodellen, og vi ser etter en teamleder som vil gå foran i det arbeidet. Du får ansvar både for teamet og tjenestene: hva vi skal tilby, hvorfor og i hvilken rekkefølge. Like viktig er det at du bryr deg om folkene i teamet og vil skape et arbeidsmiljø der de trives, utvikler seg og gjør sitt beste arbeid. Om teamet Digital arbeidsplass (DAP) består av seks personer i enheten Teknologi og sikkerhet, som samler teamene som eier de felles tekniske grunnmurene i Entur. Brukerne våre er de rundt 500 som jobber i Entur. Teamet har ansvar for rundt 24 komponenter, blant annet: Maskiner og enheter: utrulling, enhetsstyring og sikkerhet på PC-er og mobiler Kontorstøtte : e-post, dokumenter og samarbeidsverktøy, i dag Microsoft 365 Atlassian : Jira og Confluence, som store deler av Entur bruker hver dag Internt nettverk: kablet og trådløst nettverk på alle lokasjonene våre Identitet og tilganger: brukerkontoer, tilgangsstyring og innlogging for ansatte Lisenser og leverandører : oversikt over lisenser og avtaler, og oppfølging av leverandørene våre Brukerstøtte : hjelp til kolleger når noe ikke virker Vi vil ligge i forkant. Vi liker ny teknologi, også KI, og vet at mye kommer til å endre seg i årene framover: hvilke systemer vi bruker, hvilke sikkerhetskrav vi må møte og hvilken kompetanse teamet trenger. Du blir med på å forme veien videre. Hva du faktisk skal gjøre Som teamleder har du ansvar både for teamet og tjenestene. I praksis fungerer du også som produktleder: Du setter retning for h",
+   "categories": [
+    "IT",
+    "Utvikling",
+    "IT-teamleder",
+    "Systemanalytikere/-arkitekter"
    ]
   }
  }
