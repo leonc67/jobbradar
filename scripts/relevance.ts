@@ -37,7 +37,8 @@ export function assess(job: RawJob, kind: JobKind): { flags: JobFlag[]; score: n
   const flags: JobFlag[] = [];
   const text = `${job.title} ${job.text ?? ''}`;
 
-  // Årstrinn: bruk strukturerte felt når kilden har dem, ellers tekstmønstre
+  // Årstrinn: strukturerte felt fra kilden kan skjule stillingen. Tekstmønstre er bare
+  // en gjetning og gir et mykt flagg som vises, aldri skjuler (se isHidden i shared/types.ts).
   const year = config.currentYear;
   if (job.fromYear != null || job.toYear != null) {
     if ((job.fromYear ?? 1) > year || (job.toYear ?? 5) < year) flags.push('year');
@@ -45,7 +46,7 @@ export function assess(job: RawJob, kind: JobKind): { flags: JobFlag[]; score: n
     config.seniorPatterns.some((p) => p.test(text)) &&
     !config.currentYearPatterns.some((p) => p.test(text))
   ) {
-    flags.push('year');
+    flags.push('year-maybe');
   }
 
   if (!isIt(job)) flags.push('not-it');
@@ -61,7 +62,7 @@ export function assess(job: RawJob, kind: JobKind): { flags: JobFlag[]; score: n
   let score = 50;
   if (kind === 'summer') score += 15;
   score += Math.min(itHits, 5) * 6;
-  score -= flags.length * 35;
+  for (const f of flags) score -= f === 'year-maybe' ? 10 : 35;
 
   return { flags, score: Math.max(0, Math.min(100, score)) };
 }

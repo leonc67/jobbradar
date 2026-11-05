@@ -8,6 +8,7 @@ import { isCandidateTitle, parseNavAd } from '../scripts/sources/nav.ts';
 import { assess, classify, isIt } from '../scripts/relevance.ts';
 import { mergeJobs, sameJob } from '../scripts/merge.ts';
 import { containsWord, toIsoDate } from '../shared/text.ts';
+import { isHidden } from '../shared/types.ts';
 
 const NOW = new Date('2026-10-30T12:00:00Z');
 
@@ -110,7 +111,9 @@ describe('merge', () => {
 
   it('flagger årstrinn fra både felt og tekst', () => {
     expect(find('aker bp')[0].flags).toContain('year');
-    expect(find('eksempel')[0].flags).toContain('year');
+    expect(find('eksempel')[0].flags).toEqual(['year-maybe']); // bare tekst, skal vises
+    expect(isHidden(find('eksempel')[0].flags)).toBe(false);
+    expect(isHidden(find('aker bp')[0].flags)).toBe(true);
     expect(find('gintel')[0].flags).toEqual([]);
   });
 
@@ -119,7 +122,7 @@ describe('merge', () => {
       title: 'Søk Summer Internship i BAMA!', locations: ['Oslo'], deadline: null, rolling: false, categories: ['IT'] };
     expect(assess({ ...base, text: 'Vi ser etter deg som er på 3. eller 4. året av utdanningen din' }, 'summer').flags)
       .not.toContain('year');
-    expect(assess({ ...base, text: 'Du må gå 4. året' }, 'summer').flags).toContain('year');
+    expect(assess({ ...base, text: 'Du må gå 4. året' }, 'summer').flags).toEqual(['year-maybe']);
   });
 
   it('gjenbruker nøkler fra forrige kjøring', () => {

@@ -39,7 +39,7 @@ Finn.no er bevisst ikke med. Finn forbyr automatisert henting uten skriftlig sam
 ### Filtrering og sammenslåing
 
 1. **Klassifisering** (`scripts/relevance.ts`): hver annonse blir sommerjobb, winternship eller internship basert på kildens type og nøkkelord i tittelen. Faste stillinger, graduate-program og deltid droppes.
-2. **Vurdering**: stillinger flagges hvis de krever et annet årstrinn (fra kildens felter eller tekstmønstre som «4. året»), mangler IT-ord, eller ligger utenfor stedene i `scripts/config.ts`. Flaggede stillinger skjules som standard, men kan vises.
+2. **Vurdering**: stillinger flagges hvis kilden selv oppgir et annet årstrinn, de mangler IT-ord, eller ligger utenfor stedene i `scripts/config.ts`. Disse skjules som standard, men kan vises. Årstrinn gjettet ut fra fritekst (som «4. året») skjuler aldri en stilling, den vises bare med merket «Sjekk årstrinn», så en feiltolkning som «3. eller 4. året» ikke gjør at stillinger forsvinner.
 3. **Sammenslåing** (`scripts/merge.ts`): annonser med samme normaliserte firmanavn og lik tittel (Jaccard-likhet over 0.8, eller generisk tittel som «Sommerjobb Hemit 2027») blir én stilling med flere kilder.
 4. **Stabile nøkler**: hver stilling får en nøkkel som gjenbrukes fra forrige kjøring, slik at status i nettleseren følger med selv om annonsen endres.
 

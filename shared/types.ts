@@ -4,11 +4,20 @@ export type SourceId = 'abakus' | 'itdagene' | 'nav' | 'manual';
 
 export type JobKind = 'summer' | 'winter' | 'internship';
 
-/** Grunner til at en stilling er nedprioritert. Nettsiden skjuler disse som standard. */
+/** Grunner til at en stilling er nedprioritert. */
 export type JobFlag =
-  | 'year' // passer ikke ditt årstrinn (f.eks. krever 4. år)
+  | 'year' // kilden oppgir selv et annet årstrinn (strukturert felt fra Abakus/itDAGENE)
+  | 'year-maybe' // teksten nevner et høyere årstrinn, men det er bare en gjetning
   | 'not-it' // ser ikke ut som en IT-stilling
   | 'location'; // ligger utenfor stedene i config
+
+/**
+ * Flagg som er sikre nok til å skjule en stilling. Gjetninger ut fra fritekst skal aldri
+ * skjule noe, bare vises som en advarsel, så ingen stillinger forsvinner ved en feiltolkning.
+ */
+const HIDING_FLAGS: ReadonlySet<JobFlag> = new Set(['year', 'not-it', 'location']);
+
+export const isHidden = (flags: readonly JobFlag[]) => flags.some((f) => HIDING_FLAGS.has(f));
 
 export interface SourceRef {
   source: SourceId;

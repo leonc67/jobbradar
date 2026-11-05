@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { Job, JobFlag, JobKind, JobsFile } from '../shared/types.ts';
+import { isHidden } from '../shared/types.ts';
 import { exportStore, importFile } from './backup.ts';
 import { AddJobDialog } from './components/AddJobDialog.tsx';
 import { JobRow, SOURCE_NAMES } from './components/JobRow.tsx';
@@ -17,6 +18,7 @@ const FILTER_TITLES: Record<Filter, string> = {
 
 const FLAG_NAMES: Record<JobFlag, string> = {
   year: 'annet årstrinn',
+  'year-maybe': 'sjekk årstrinn',
   'not-it': 'usikker IT-match',
   location: 'annet sted',
 };
@@ -62,7 +64,7 @@ export function App() {
 
   /** Stillinger som er aktuelle: ikke utløpt, eller fulgt av deg. */
   const relevant = allJobs.filter((j) => isTracked(j) || !j.deadline || j.deadline >= today);
-  const flaggedHidden = relevant.filter((j) => j.flags.length > 0 && !isTracked(j));
+  const flaggedHidden = relevant.filter((j) => isHidden(j.flags) && !isTracked(j));
 
   const matchesFilter = (j: Job, f: Filter) =>
     f === 'alle' ||
@@ -70,7 +72,7 @@ export function App() {
     (f === 'sendt' && isSent(j)) ||
     (f === 'avslag' && isRejected(j));
 
-  const shown = relevant.filter((j) => showFlagged || isTracked(j) || j.flags.length === 0);
+  const shown = relevant.filter((j) => showFlagged || isTracked(j) || !isHidden(j.flags));
   const count = (f: Filter) => shown.filter((j) => matchesFilter(j, f)).length;
 
   const q = query.trim().toLowerCase();

@@ -11,6 +11,7 @@ export const SOURCE_NAMES: Record<SourceId, string> = {
 
 const FLAG_TEXT: Record<JobFlag, string> = {
   year: 'Annet årstrinn',
+  'year-maybe': 'Sjekk årstrinn',
   'not-it': 'Usikker IT-match',
   location: 'Annet sted',
 };
