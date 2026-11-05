@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T13:15:37.996Z",
+ "generatedAt": "2026-11-05T15:17:18.429Z",
  "sources": [
   {
    "id": "abakus",
@@ -47,7 +47,7 @@
    ],
    "score": 36,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "norconsult-digital-as--sommerjobb-innen-teknologi-og-digitalisering",
@@ -78,7 +78,7 @@
    ],
    "score": 36,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "lighthouse--summer-intern-ki-utvikling-2-stillinger",
@@ -102,7 +102,7 @@
    "flags": [],
    "score": 77,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "append-consulting--internship-forretningsutvikler-varen-2027",
@@ -126,7 +126,7 @@
    "flags": [],
    "score": 50,
    "firstSeen": "2026-11-04T13:02:13.516Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "aker-bp--sommerstudent-2027-subsurface-data-science",
@@ -152,7 +152,7 @@
    ],
    "score": 36,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "skred-og-vassdrag-norges-vassdrags-og-energidirektorat-nve--nve-soker-sommerstudenter-for-arbeid-med-flom-og-skred",
@@ -181,7 +181,7 @@
    "flags": [],
    "score": 71,
    "firstSeen": "2026-11-03T12:50:50.920Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "solvera--internship-som-utvikler-i-solvera",
@@ -205,7 +205,7 @@
    "flags": [],
    "score": 56,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "disruptive-technologies--summer-internship-2027-disruptive-technologies",
@@ -230,7 +230,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "bama-gruppen-as--sok-summer-internship-i-bama",
@@ -251,12 +251,10 @@
      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/3996dc5e-1571-47c8-b23d-33bf44a1ca1e"
     }
    ],
-   "flags": [
-    "year"
-   ],
-   "score": 48,
+   "flags": [],
+   "score": 83,
    "firstSeen": "2026-11-03T12:50:50.920Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "vespa--sommerjobb-2027-vespa",
@@ -287,7 +285,7 @@
    ],
    "score": 30,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "statens-vegvesen--vi-soker-100-sommerstudenter-fra-nord-til-sor",
@@ -321,7 +319,7 @@
    "flags": [],
    "score": 77,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "statsbygg--summer-internship-2027-bruk-kunnskapen-din-til-a-lose-utford",
@@ -345,7 +343,7 @@
    "flags": [],
    "score": 77,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "gintel-as--summer-internship-2027",
@@ -369,7 +367,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "autodesk--software-engineering-intern-summer-2027",
@@ -393,7 +391,7 @@
    "flags": [],
    "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "jetbrains--jetbrains-internships",
@@ -415,7 +413,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "cisco--software-engineer-summer-internship",
@@ -439,7 +437,7 @@
    "flags": [],
    "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "arm-norway-as--summer-internship-programs-2027",
@@ -463,7 +461,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "thales-norway-as--sommerjobb-oslo-2027",
@@ -487,7 +485,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "thales-norway-as--sommerjobb-trondheim-2027",
@@ -511,7 +509,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "pexip--software-engineers-internship-summer-2027",
@@ -535,7 +533,7 @@
    "flags": [],
    "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "optio-incentives--optio-incentives-summer-internship",
@@ -559,7 +557,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "sopra-steria--sommerjobb-2027-teknologi",
@@ -586,7 +584,7 @@
    ],
    "score": 36,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "surplusmap--internship-data-engineer",
@@ -610,7 +608,7 @@
    "flags": [],
    "score": 56,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "buildright--forward-deployed-engineer-intern",
@@ -634,7 +632,7 @@
    "flags": [],
    "score": 62,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   },
   {
    "key": "entur--teamleder-digital-arbeidsplass-intern-it",
@@ -658,7 +656,7 @@
    "flags": [],
    "score": 74,
    "firstSeen": "2026-11-04T13:02:13.516Z",
-   "lastSeen": "2026-11-05T13:15:37.996Z"
+   "lastSeen": "2026-11-05T15:17:18.429Z"
   }
  ]
 }
