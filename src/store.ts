@@ -16,6 +16,8 @@ export interface StoreData {
   tracked: Record<string, Tracked>;
   /** Stillinger lagt inn for hånd, f.eks. fra finn.no */
   manual: Job[];
+  /** Nøkler til hentede stillinger du har slettet, f.eks. fordi de er utløpt eller ikke aktuelle. */
+  dismissed: string[];
   lastVisit: string | null;
 }
 
@@ -52,12 +54,13 @@ export function migrate(raw: unknown): StoreData | null {
     version: 2,
     tracked,
     manual: (data.manual ?? []).filter((j) => keep.has(j.key)),
+    dismissed: [],
     lastVisit: data.lastVisit ?? null,
   };
 }
 
 const KEY = 'jobbradar:v1';
-const empty = (): StoreData => ({ version: 2, tracked: {}, manual: [], lastVisit: null });
+const empty = (): StoreData => ({ version: 2, tracked: {}, manual: [], dismissed: [], lastVisit: null });
 
 function load(): StoreData {
   try {
@@ -122,15 +125,24 @@ export function useStore() {
     }));
   }, []);
 
-  const removeManual = useCallback((key: string) => {
+  /** Sletter en stilling. Egne stillinger fjernes helt, hentede skjules for godt. */
+  const removeJob = useCallback((key: string) => {
     setData((d) => {
       const tracked = { ...d.tracked };
       delete tracked[key];
-      return { ...d, manual: d.manual.filter((j) => j.key !== key), tracked };
+      const isManual = d.manual.some((j) => j.key === key);
+      return {
+        ...d,
+        tracked,
+        manual: d.manual.filter((j) => j.key !== key),
+        dismissed: isManual || d.dismissed.includes(key) ? d.dismissed : [...d.dismissed, key],
+      };
     });
   }, []);
 
+  const restoreDismissed = useCallback(() => setData((d) => ({ ...d, dismissed: [] })), []);
+
   const replace = useCallback((next: StoreData) => setData(next), []);
 
-  return { data, previousVisit, toggleSent, toggleRejected, setNote, addManual, removeManual, replace };
+  return { data, previousVisit, toggleSent, toggleRejected, setNote, addManual, removeJob, restoreDismissed, replace };
 }

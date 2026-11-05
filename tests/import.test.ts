@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { importFile } from '../src/backup.ts';
 import { migrate, type StoreData } from '../src/store.ts';
+import type { Job } from '../shared/types.ts';
 
-const empty: StoreData = { version: 2, tracked: {}, manual: [], lastVisit: null };
+const empty: StoreData = { version: 2, tracked: {}, manual: [], dismissed: [], lastVisit: null };
 const list = (items: object[]) => JSON.stringify(items);
 
 describe('import', () => {
@@ -27,6 +28,13 @@ describe('import', () => {
     const titles = Object.values(data.tracked).map((t) => t.job.title).sort();
     expect(titles).toEqual(['Summer internship 2027', 'Winternship 2027']);
     expect(data.manual).toHaveLength(2);
+  });
+
+  it('sletter en hentet stilling med remove', () => {
+    const fetched = { key: 'autodesk--intern', company: 'Autodesk', title: 'Software Engineering Intern Summer 2027' } as Job;
+    const { data, summary } = importFile(list([{ company: 'Autodesk', title: 'Software Engineering Intern Summer 2027', remove: true }]), empty, [fetched]);
+    expect(data.dismissed).toEqual(['autodesk--intern']);
+    expect(summary).toContain('Fjernet 1');
   });
 
   it('hopper over stillinger du ikke har søkt på', () => {

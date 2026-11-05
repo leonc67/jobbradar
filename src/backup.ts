@@ -63,7 +63,12 @@ export function importFile(
 
   if (!Array.isArray(parsed)) throw new Error('Filen er verken en backup eller en liste med stillinger.');
 
-  const data: StoreData = { ...current, tracked: { ...current.tracked }, manual: [...current.manual] };
+  const data: StoreData = {
+    ...current,
+    tracked: { ...current.tracked },
+    manual: [...current.manual],
+    dismissed: [...(current.dismissed ?? [])],
+  };
   let sentCount = 0;
   let rejectedCount = 0;
   let removedCount = 0;
@@ -79,6 +84,12 @@ export function importFile(
       }
     }
     data.manual = data.manual.filter((j) => !sameText(j, raw));
+    for (const j of jobs) {
+      if (sameText(j, raw) && !data.dismissed.includes(j.key)) {
+        data.dismissed.push(j.key);
+        removedCount++;
+      }
+    }
   }
 
   for (const raw of items.filter((r) => !r.remove)) {

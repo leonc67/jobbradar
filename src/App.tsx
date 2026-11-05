@@ -54,8 +54,9 @@ export function App() {
       keys.add(j.key);
       return true;
     });
-    return [...fetched, ...extra];
-  }, [file, data.manual, data.tracked]);
+    const dismissed = new Set(data.dismissed);
+    return [...fetched, ...extra].filter((j) => !dismissed.has(j.key));
+  }, [file, data.manual, data.tracked, data.dismissed]);
 
   const isSent = (job: Job) => Boolean(data.tracked[job.key]?.sent);
   const isRejected = (job: Job) => Boolean(data.tracked[job.key]?.rejected);
@@ -210,6 +211,15 @@ export function App() {
         </p>
       )}
 
+      {data.dismissed.length > 0 && (
+        <p className="hidden-note">
+          Du har slettet {data.dismissed.length} {data.dismissed.length === 1 ? 'stilling' : 'stillinger'}.{' '}
+          <button type="button" className="link" onClick={store.restoreDismissed}>
+            Hent dem tilbake
+          </button>
+        </p>
+      )}
+
       {visible.length === 0 ? (
         <p className="empty">
           {file ? 'Ingen stillinger her. Prøv å fjerne søket eller velge et annet filter.' : ''}
@@ -228,7 +238,7 @@ export function App() {
               onToggleSent={() => store.toggleSent(job)}
               onToggleRejected={() => store.toggleRejected(job)}
               onNote={(n) => store.setNote(job, n)}
-              onRemove={job.sources[0]?.source === 'manual' ? () => store.removeManual(job.key) : undefined}
+              onRemove={() => store.removeJob(job.key)}
             />
           ))}
         </ul>
