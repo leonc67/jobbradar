@@ -57,6 +57,17 @@ export const config = {
     /\buteksaminer\w*\s+(i\s+)?2028\b/i,
   ],
 
+  /**
+   * Tekst som sier at ditt årstrinn også er velkomment, f.eks. "3. eller 4. året".
+   * Treffer en av disse, flagges ikke stillingen for årstrinn selv om "4. år" også står der.
+   */
+  currentYearPatterns: [
+    /\b3\.\s*(år|årstrinn|klasse|trinn)/i,
+    /\b3\.\s*(eller|og|til|-|–)\s*[45]\./i,
+    /\btredje\s+(år|årstrinn|studieår)/i,
+    /\b(3rd|third)[-\s](year|or)\b/i,
+  ],
+
   /** Hvor langt tilbake NAV-feeden leses første gang (dager). */
   navInitialLookbackDays: 120,
   /** Maks antall feed-sider per kjøring, så én kjøring ikke tar evig tid. */

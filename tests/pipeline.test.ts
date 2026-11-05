@@ -5,7 +5,7 @@ import navAd from './fixtures/nav-ad.json';
 import { parseAbakus } from '../scripts/sources/abakus.ts';
 import { parseItdagene } from '../scripts/sources/itdagene.ts';
 import { isCandidateTitle, parseNavAd } from '../scripts/sources/nav.ts';
-import { classify, isIt } from '../scripts/relevance.ts';
+import { assess, classify, isIt } from '../scripts/relevance.ts';
 import { mergeJobs, sameJob } from '../scripts/merge.ts';
 import { containsWord, toIsoDate } from '../shared/text.ts';
 
@@ -112,6 +112,14 @@ describe('merge', () => {
     expect(find('aker bp')[0].flags).toContain('year');
     expect(find('eksempel')[0].flags).toContain('year');
     expect(find('gintel')[0].flags).toEqual([]);
+  });
+
+  it('flagger ikke årstrinn når 3. året også er nevnt', () => {
+    const base = { source: 'nav' as const, sourceId: 'x', url: 'https://x', company: 'BAMA Gruppen AS',
+      title: 'Søk Summer Internship i BAMA!', locations: ['Oslo'], deadline: null, rolling: false, categories: ['IT'] };
+    expect(assess({ ...base, text: 'Vi ser etter deg som er på 3. eller 4. året av utdanningen din' }, 'summer').flags)
+      .not.toContain('year');
+    expect(assess({ ...base, text: 'Du må gå 4. året' }, 'summer').flags).toContain('year');
   });
 
   it('gjenbruker nøkler fra forrige kjøring', () => {

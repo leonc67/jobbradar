@@ -41,7 +41,10 @@ export function assess(job: RawJob, kind: JobKind): { flags: JobFlag[]; score: n
   const year = config.currentYear;
   if (job.fromYear != null || job.toYear != null) {
     if ((job.fromYear ?? 1) > year || (job.toYear ?? 5) < year) flags.push('year');
-  } else if (config.seniorPatterns.some((p) => p.test(text))) {
+  } else if (
+    config.seniorPatterns.some((p) => p.test(text)) &&
+    !config.currentYearPatterns.some((p) => p.test(text))
+  ) {
     flags.push('year');
   }
 
