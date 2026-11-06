@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T15:22:39.432Z",
+ "generatedAt": "2026-11-06T12:59:10.702Z",
  "sources": [
   {
    "id": "abakus",
@@ -18,68 +18,6 @@
   }
  ],
  "jobs": [
-  {
-   "key": "norconsult-digital-as--sommerjobb-innen-maskinlaering",
-   "company": "Norconsult Digital AS",
-   "title": "Sommerjobb innen maskinlæring",
-   "kind": "summer",
-   "locations": [
-    "Trondheim"
-   ],
-   "deadline": "2026-11-05",
-   "rolling": false,
-   "fromYear": 4,
-   "toYear": 4,
-   "sources": [
-    {
-     "source": "abakus",
-     "sourceId": "2656",
-     "url": "https://abakus.no/joblistings/2656-sommerjobb-innen-maskinlring"
-    },
-    {
-     "source": "itdagene",
-     "sourceId": "norconsult-digital-sommerjobb-innen-maskinlring-2026",
-     "url": "https://itdagene.no/jobb/norconsult-digital-sommerjobb-innen-maskinlring-2026"
-    }
-   ],
-   "flags": [
-    "year"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
-  },
-  {
-   "key": "norconsult-digital-as--sommerjobb-innen-teknologi-og-digitalisering",
-   "company": "Norconsult Digital AS",
-   "title": "Sommerjobb innen teknologi og digitalisering",
-   "kind": "summer",
-   "locations": [
-    "Trondheim"
-   ],
-   "deadline": "2026-11-05",
-   "rolling": false,
-   "fromYear": 4,
-   "toYear": 4,
-   "sources": [
-    {
-     "source": "abakus",
-     "sourceId": "2655",
-     "url": "https://abakus.no/joblistings/2655-sommerjobb-innen-teknologi-og-digitalisering"
-    },
-    {
-     "source": "itdagene",
-     "sourceId": "norconsult-digital-sommerjobb-innen-teknologi-og-digitalisering-2026",
-     "url": "https://itdagene.no/jobb/norconsult-digital-sommerjobb-innen-teknologi-og-digitalisering-2026"
-    }
-   ],
-   "flags": [
-    "year"
-   ],
-   "score": 36,
-   "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
-  },
   {
    "key": "lighthouse--summer-intern-ki-utvikling-2-stillinger",
    "company": "Lighthouse",
@@ -102,7 +40,7 @@
    "flags": [],
    "score": 77,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "append-consulting--internship-forretningsutvikler-varen-2027",
@@ -126,7 +64,7 @@
    "flags": [],
    "score": 50,
    "firstSeen": "2026-11-04T13:02:13.516Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "aker-bp--sommerstudent-2027-subsurface-data-science",
@@ -152,7 +90,7 @@
    ],
    "score": 36,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "skred-og-vassdrag-norges-vassdrags-og-energidirektorat-nve--nve-soker-sommerstudenter-for-arbeid-med-flom-og-skred",
@@ -181,7 +119,7 @@
    "flags": [],
    "score": 71,
    "firstSeen": "2026-11-03T12:50:50.920Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "solvera--internship-som-utvikler-i-solvera",
@@ -205,7 +143,7 @@
    "flags": [],
    "score": 56,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "disruptive-technologies--summer-internship-2027-disruptive-technologies",
@@ -230,7 +168,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "bama-gruppen-as--sok-summer-internship-i-bama",
@@ -254,7 +192,7 @@
    "flags": [],
    "score": 83,
    "firstSeen": "2026-11-03T12:50:50.920Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "vespa--sommerjobb-2027-vespa",
@@ -285,7 +223,7 @@
    ],
    "score": 30,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "statens-vegvesen--vi-soker-100-sommerstudenter-fra-nord-til-sor",
@@ -319,7 +257,7 @@
    "flags": [],
    "score": 77,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "statsbygg--summer-internship-2027-bruk-kunnskapen-din-til-a-lose-utford",
@@ -343,7 +281,7 @@
    "flags": [],
    "score": 77,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "gintel-as--summer-internship-2027",
@@ -367,7 +305,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T16:42:56.908Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "autodesk--software-engineering-intern-summer-2027",
@@ -391,7 +329,7 @@
    "flags": [],
    "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "jetbrains--jetbrains-internships",
@@ -413,7 +351,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "cisco--software-engineer-summer-internship",
@@ -437,7 +375,7 @@
    "flags": [],
    "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "arm-norway-as--summer-internship-programs-2027",
@@ -461,7 +399,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "thales-norway-as--sommerjobb-oslo-2027",
@@ -485,7 +423,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "thales-norway-as--sommerjobb-trondheim-2027",
@@ -509,7 +447,33 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
+  },
+  {
+   "key": "norconsult-digital-as--sommerjobb-innen-maskinlaering",
+   "company": "Norconsult Digital",
+   "title": "Sommerjobb innen maskinlæring",
+   "kind": "summer",
+   "locations": [
+    "Trondheim"
+   ],
+   "deadline": null,
+   "rolling": true,
+   "fromYear": 4,
+   "toYear": 4,
+   "sources": [
+    {
+     "source": "itdagene",
+     "sourceId": "norconsult-digital-sommerjobb-innen-maskinlring-2026",
+     "url": "https://itdagene.no/jobb/norconsult-digital-sommerjobb-innen-maskinlring-2026"
+    }
+   ],
+   "flags": [
+    "year"
+   ],
+   "score": 36,
+   "firstSeen": "2026-10-30T18:58:53.273Z",
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "pexip--software-engineers-internship-summer-2027",
@@ -533,7 +497,33 @@
    "flags": [],
    "score": 71,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
+  },
+  {
+   "key": "norconsult-digital-as--sommerjobb-innen-teknologi-og-digitalisering",
+   "company": "Norconsult Digital",
+   "title": "Sommerjobb innen teknologi og digitalisering",
+   "kind": "summer",
+   "locations": [
+    "Trondheim"
+   ],
+   "deadline": null,
+   "rolling": true,
+   "fromYear": 4,
+   "toYear": 4,
+   "sources": [
+    {
+     "source": "itdagene",
+     "sourceId": "norconsult-digital-sommerjobb-innen-teknologi-og-digitalisering-2026",
+     "url": "https://itdagene.no/jobb/norconsult-digital-sommerjobb-innen-teknologi-og-digitalisering-2026"
+    }
+   ],
+   "flags": [
+    "year"
+   ],
+   "score": 36,
+   "firstSeen": "2026-10-30T18:58:53.273Z",
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "optio-incentives--optio-incentives-summer-internship",
@@ -557,7 +547,7 @@
    "flags": [],
    "score": 65,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "sopra-steria--sommerjobb-2027-teknologi",
@@ -584,7 +574,7 @@
    ],
    "score": 36,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "surplusmap--internship-data-engineer",
@@ -608,7 +598,7 @@
    "flags": [],
    "score": 56,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "buildright--forward-deployed-engineer-intern",
@@ -632,7 +622,7 @@
    "flags": [],
    "score": 62,
    "firstSeen": "2026-10-30T18:58:53.273Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   },
   {
    "key": "entur--teamleder-digital-arbeidsplass-intern-it",
@@ -656,7 +646,7 @@
    "flags": [],
    "score": 74,
    "firstSeen": "2026-11-04T13:02:13.516Z",
-   "lastSeen": "2026-11-05T15:22:39.432Z"
+   "lastSeen": "2026-11-06T12:59:10.702Z"
   }
  ]
 }
