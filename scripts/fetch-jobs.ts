@@ -49,6 +49,9 @@ async function main() {
     }
   });
 
+  // Stillinger lagt inn for hånd i config (vises selv om ingen kilde fant dem)
+  raws.push(...config.extraJobs.filter((x) => !raws.some((r) => r.sourceId === x.sourceId)));
+
   const now = new Date();
   let jobs: Job[] = mergeJobs(raws, previous?.jobs ?? [], now);
 
@@ -63,6 +66,12 @@ async function main() {
     );
     jobs = [...jobs, ...kept];
   }
+
+  // Vis valgte stillinger selv om kilden oppgir et annet årstrinn
+  const alwaysShow = new Set(config.alwaysShowKeys);
+  jobs = jobs.map((j) =>
+    alwaysShow.has(j.key) ? { ...j, flags: j.flags.filter((f) => f !== 'year') } : j,
+  );
 
   // Fjern stillinger som er markert som utløpt/stengt i config
   const removed = new Set(config.removedKeys);

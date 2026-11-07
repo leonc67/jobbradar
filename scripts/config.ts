@@ -1,3 +1,4 @@
+import type { RawJob } from '../shared/types.ts';
 /** Lager et regulært uttrykk som bare treffer hele ord (også med æøå). */
 const word = (pattern: string) =>
   new RegExp(`(?<![\\p{L}\\p{N}])(?:${pattern})(?![\\p{L}\\p{N}])`, 'iu');
@@ -39,6 +40,34 @@ export const config = {
     'thales-norway-as--sommerjobb-trondheim-2027', // utløpt (nov 2026)
     'buildright--forward-deployed-engineer-intern', // deltid ca. 1 dag/uke for byggstudenter, frist 1. nov (nov 2026)
   ] as string[],
+
+  /**
+   * Stillinger som alltid skal vises selv om kilden oppgir et annet årstrinn
+   * (Leon vil vurdere dem selv). Nøkkelen er "key" i public/jobs.json.
+   */
+  alwaysShowKeys: [
+    'norconsult-digital-as--sommerjobb-innen-maskinlaering',
+    'norconsult-digital-as--sommerjobb-innen-teknologi-og-digitalisering',
+  ] as string[],
+
+  /**
+   * Stillinger lagt inn for hånd i repoet, f.eks. NAV-annonser som feeden gikk glipp av.
+   * Vises på alle enheter. Fjern linjen når fristen er ute.
+   */
+  extraJobs: [
+    {
+      source: 'nav',
+      sourceId: '1a7133dc-c8a6-42b0-9dd3-4b3031b87cd1',
+      url: 'https://arbeidsplassen.nav.no/stillinger/stilling/1a7133dc-c8a6-42b0-9dd3-4b3031b87cd1',
+      company: 'Norconsult Digital AS',
+      title: 'Sommerstudent systemutvikling for ingeniørfaglige utfordringer',
+      locations: ['Oslo'],
+      deadline: '2026-11-13',
+      rolling: false,
+      text: 'Studenter på 4. året av master innen I&IKT, bygg, maskin, marin, kybernetikk og robotikk. Objektorientert programmering.',
+      categories: ['IT', 'Programvareutviklere'],
+    },
+  ] as RawJob[],
 
   /** Ord som gjør at en stilling droppes helt (faste stillinger, deltid osv.). */
   excludeKeywords: [
