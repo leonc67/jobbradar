@@ -29,6 +29,16 @@ export const config = {
     internship: [word('interns?'), word('internships?'), word('praktikant(er)?')],
   },
 
+  /**
+   * Stillinger som er utløpt eller stengt, men som kilden fortsatt viser som løpende.
+   * De fjernes fra siden for alle enheter. Nøkkelen er "key" i public/jobs.json.
+   */
+  removedKeys: [
+    'pexip--software-engineers-internship-summer-2027', // utløpt, bare Reading (UK) igjen (nov 2026)
+    'thales-norway-as--sommerjobb-oslo-2027', // utløpt (nov 2026)
+    'thales-norway-as--sommerjobb-trondheim-2027', // utløpt (nov 2026)
+  ] as string[],
+
   /** Ord som gjør at en stilling droppes helt (faste stillinger, deltid osv.). */
   excludeKeywords: [
     'graduate', 'nyutdannet', 'trainee', 'fast stilling', 'deltid', 'part-time',

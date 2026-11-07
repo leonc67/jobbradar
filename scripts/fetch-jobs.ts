@@ -5,6 +5,7 @@
  */
 import fs from 'node:fs/promises';
 import type { Job, JobsFile, RawJob, SourceId, SourceStatus } from '../shared/types.ts';
+import { config } from './config.ts';
 import { mergeJobs } from './merge.ts';
 import { fetchAbakus } from './sources/abakus.ts';
 import { fetchItdagene } from './sources/itdagene.ts';
@@ -62,6 +63,10 @@ async function main() {
     );
     jobs = [...jobs, ...kept];
   }
+
+  // Fjern stillinger som er markert som utløpt/stengt i config
+  const removed = new Set(config.removedKeys);
+  jobs = jobs.filter((j) => !removed.has(j.key));
 
   const file: JobsFile = { generatedAt: now.toISOString(), sources: statuses, jobs };
   await fs.writeFile(OUT, JSON.stringify(file, null, 1) + '\n');
