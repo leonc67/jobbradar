@@ -76,6 +76,14 @@ describe('kilder', () => {
     expect(isIt(nav('Sommerjobb 2027 – festivalvektere', ['Vekter, sikkerhet']))).toBe(false);
     expect(isIt(nav('2 pedagogiske ledere i Sommerfryd', ['Utdanning', 'Barnehagelærer']))).toBe(false);
     expect(isIt({ source: 'abakus', title: 'Summer Internship 2027' })).toBe(true);
+    // Sammensatte ord (Norconsult-annonsen ble borte fordi "systemutvikling" ikke traff)
+    expect(isIt(nav('Sommerstudent systemutvikling for ingeniørfaglige utfordringer'))).toBe(true);
+    expect(isIt(nav('Sommerjobb som programvareutvikler'))).toBe(true);
+    expect(isIt(nav('Sommerstudent informasjonssikkerhet'))).toBe(true);
+    expect(isIt(nav('Sommerstudent IT-sikkerhet og beredskap'))).toBe(true);
+    expect(isIt(nav('Sommerstudent skyplattform'))).toBe(true);
+    expect(isIt(nav('Sommerjobb forretningsutvikling', ['Salg']))).toBe(false);
+    expect(isIt(nav('Sommerjobb eiendomsutvikling', ['Eiendom']))).toBe(false);
   });
 });
 

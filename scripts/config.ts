@@ -83,8 +83,11 @@ export const config = {
     word('it|ikt|ai|ki|tech|cyber|devops|backend|fullstack|software'),
     word('it-\\p{L}+|ikt-\\p{L}+'),
     word('teknologi\\p{L}*|technology|digital\\p{L}*|data\\p{L}*'),
-    word('utvikl(er|ere|ing)\\p{L}*|develop(er|ment)?|programm\\p{L}*|kode|code'),
-    word('(informasjons|data|nett|cyber)sikkerhet|(cyber|information|network)\\s+security|nettverk|network|cloud|skytjenester'),
+    // Sammensatte ord tillates med kjente IT-forledd, f.eks. "systemutvikling", "programvareutvikler".
+    // Ikke alle forledd: "forretningsutvikling" og "eiendomsutvikling" er ikke IT.
+    word('(system|programvare|app|web|software|spill|tjeneste|løsnings|frontend|backend)?utvikl(er|ere|ing)\\p{L}*|develop(er|ment)?|programm\\p{L}*|kode|code'),
+    word('programvare\\p{L}*|system(arkitekt|utvikl|integrasjon)\\p{L}*|(informasjons|kommunikasjons)teknologi\\p{L}*'),
+    word('(informasjons|data|nett|cyber|it|ikt|digital|applikasjons)sikkerhet\\p{L}*|(cyber|information|network)\\s+security|nettverk\\p{L}*|network|cloud|sky(tjenester|teknologi|plattform)\\p{L}*'),
     word('maskinlæring|machine\\s+learning|analytics|infrastruktur|infrastructure'),
   ],
 
