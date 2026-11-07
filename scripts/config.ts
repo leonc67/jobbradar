@@ -46,8 +46,6 @@ export const config = {
    * (Leon vil vurdere dem selv). Nøkkelen er "key" i public/jobs.json.
    */
   alwaysShowKeys: [
-    'norconsult-digital-as--sommerjobb-innen-maskinlaering',
-    'norconsult-digital-as--sommerjobb-innen-teknologi-og-digitalisering',
   ] as string[],
 
   /**
@@ -55,18 +53,6 @@ export const config = {
    * Vises på alle enheter. Fjern linjen når fristen er ute.
    */
   extraJobs: [
-    {
-      source: 'nav',
-      sourceId: '1a7133dc-c8a6-42b0-9dd3-4b3031b87cd1',
-      url: 'https://arbeidsplassen.nav.no/stillinger/stilling/1a7133dc-c8a6-42b0-9dd3-4b3031b87cd1',
-      company: 'Norconsult Digital AS',
-      title: 'Sommerstudent systemutvikling for ingeniørfaglige utfordringer',
-      locations: ['Oslo'],
-      deadline: '2026-11-13',
-      rolling: false,
-      text: 'Studenter på 4. året av master innen I&IKT, bygg, maskin, marin, kybernetikk og robotikk. Objektorientert programmering.',
-      categories: ['IT', 'Programvareutviklere'],
-    },
   ] as RawJob[],
 
   /** Ord som gjør at en stilling droppes helt (faste stillinger, deltid osv.). */
