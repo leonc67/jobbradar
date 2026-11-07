@@ -40,6 +40,7 @@ export const config = {
     'thales-norway-as--sommerjobb-trondheim-2027', // utløpt (nov 2026)
     'buildright--forward-deployed-engineer-intern', // deltid ca. 1 dag/uke for byggstudenter, frist 1. nov (nov 2026)
     'append-consulting--internship-forretningsutvikler-varen-2027', // forretningsutvikling, ikke relevant (nov 2026)
+    'skred-og-vassdrag-norges-vassdrags-og-energidirektorat-nve--nve-soker-sommerstudenter-for-arbeid-med-flom-og-skred', // skred og vassdrag, ikke IT (nov 2026)
   ] as string[],
 
   /**
