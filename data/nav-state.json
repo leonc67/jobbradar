@@ -1,5 +1,5 @@
 {
- "cursor": "/api/v1/feed/15308144-2dfb-45d5-9a9b-7ed9613c6d03",
+ "cursor": "/api/v1/feed/16312af1-78e8-4778-9068-dba363780cda",
  "ads": {
   "7291f326-1537-4185-895e-b8057375c770": {
    "source": "nav",
@@ -756,6 +756,27 @@
     "Gatekjøkkenmedarbeider",
     "Kokker",
     "Gatekjøkken- og kafémedarbeidere mv."
+   ]
+  },
+  "f249310d-ab96-4ee1-8d82-4898264f1c16": {
+   "source": "nav",
+   "sourceId": "f249310d-ab96-4ee1-8d82-4898264f1c16",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/f249310d-ab96-4ee1-8d82-4898264f1c16",
+   "company": "Nordlandssykehuset HF",
+   "title": "Er du lege eller medisinstudent på utkikk etter sommerjobb?",
+   "locations": [
+    "Stokmarknes",
+    "Bodø",
+    "Gravdal"
+   ],
+   "deadline": "2027-01-31",
+   "rolling": false,
+   "text": "Vi har ledige ferievikariater for leger med autorisasjon eller medisinstudenter med lisens i perioden mai til september 2027. Ferievikariatene er ved våre lokasjoner i Lofoten, Vesterålen og Bodø. Varighet på ferievikariatene vil variere. Praktisk informasjon om søknadsprosessen: I søknaden må du presisere fagbakgrunn og erfaring. Norsk autorisasjon/lisens som lege/medisinstudent må være på plass før, eller i løpet av sommeren 2027 Du må oppgi i hvilke perioder du kan arbeide. Dersom du har mulighet til å starte før mai 2027, gjerne oppgi også dette i søknaden Du må oppgi minst to referansepersoner i søknaden Tilsetting skjer fortløpende og iht. de til enhver tid gjeldende lover og avtaler Ved noen av våre enheter må den som tilbys stillingen levere politiattest jf. helsepersonelloven § 20a Arbeidsoppgaver Arbeidsoppgavene vil variere ut ifra din kompetanse og hvilken enhet du jobber ved, men som ferievikar vil du jobbe med enten vaktarbeid og/eller postarbeid. Kvalifikasjoner Lege med norsk autorisasjon eller medisinstudent med norsk lisens Norsk autorisasjon/lisens må være på plass før, eller i løpet av sommeren 2027 Ønskelig med erfaring fra helsevesenet God muntlig og skriftlig fremstillingsevne på norsk eller annet skandinavisk språk Personlige egenskaper Du må være faglig interessert Du må være fleksibel og løsningsorientert Du må bidra til godt samarbeid Du må kunne håndtere en hektisk og variert arbeidshverdag Personlig egnethet vektlegges. Hvorfor jobbe som ferievikar i Nordlandssykehuset? Dette er en ypperlig mulighet for læring og omsetting av din medisinfaglige kunnskap i praksis! Alle våre ferievikarer får god opplæring i varierte og utfordrende arbeidsoppgaver, tilpasset behov, kunnskapsnivå og erfaring. Usikker på hvor du vil jobbe? Les mer om våre avdelinger her. Å jobbe som ferievikar i Nord-Norge byr på mange muligheter, enten du liker en aktiv fritid eller roligere aktiviteter. Lofoten, Vesterålen og Bodø kan by på vakker natur rett utenfor døren,",
+   "categories": [
+    "Helse og sosial",
+    "Lege",
+    "Medisinstudent med legelisens",
+    "Allmennpraktiserende leger"
    ]
   }
  }
