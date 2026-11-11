@@ -1,5 +1,5 @@
 {
- "cursor": "/api/v1/feed/16312af1-78e8-4778-9068-dba363780cda",
+ "cursor": "/api/v1/feed/40a032a0-e321-49e7-95e9-960c3f42a30c",
  "ads": {
   "7291f326-1537-4185-895e-b8057375c770": {
    "source": "nav",
@@ -777,6 +777,25 @@
     "Lege",
     "Medisinstudent med legelisens",
     "Allmennpraktiserende leger"
+   ]
+  },
+  "d1b49c18-8a36-46c9-9bcc-302d5e1509ad": {
+   "source": "nav",
+   "sourceId": "d1b49c18-8a36-46c9-9bcc-302d5e1509ad",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d1b49c18-8a36-46c9-9bcc-302d5e1509ad",
+   "company": "Consto AS",
+   "title": "Sommerjobb 2027 – Energi og Miljø",
+   "locations": [
+    "Tromsø"
+   ],
+   "deadline": "2027-02-28",
+   "rolling": false,
+   "text": "I Consto ser vi på deg som er student som en viktig fremtidig ressurs. Derfor vil vi gjerne bli kjent med deg allerede i studietiden. I en sommerjobb hos oss vil du få kjennskap til bransjen og et godt innblikk i hvordan det er å jobbe ute på et byggeprosjekt. Vi får samtidig mulighet til å bli kjent med deg, og du vil kanskje finne ut om Consto er et sted du ønsker å jobbe etter endt studie. Vi utfører byggeprosjekter innen boliger, hoteller, ROT-prosjekter, kontorbygg, kjøpesenter, industri, helse og omsorg, skoler og barnehager. Sommeren 2027 søker Energi- og miljøavdelingen vår en engasjert sommerstudent med kontorsted i Trondheim eller Tromsø. Kvalifikasjoner Vi ser etter deg som er student på høyskole eller universitet innen relevante fagområder. Er du engasjert, lærevillig og nysgjerrig så er kanskje Consto stedet for deg? Ser du for deg en fremtid i bransjen, kan vi sammen se på et videre utviklingsløp spesielt tilpasset for deg. Grunnleggende krav Student innen relevante fag (ing, siv.ing) Kunne et skandinavisk språk samt engelsk Personlige egenskaper Vi ser etter deg som er nysgjerrig, lærevillig og har lyst til å få praktisk erfaring fra byggebransjen. Du tar initiativ, stiller spørsmål og er ikke redd for å ta ansvar. Du trives med å samarbeide med andre, bidrar positivt til laget og møter nye oppgaver med en løsningsorientert innstilling. Du trenger ikke kunne alt fra før. Det viktigste er at du har lyst til å lære, bidra og bli en del av laget i Consto. Vi tilbyr Consto har et avslappet arbeidsmiljø med flat struktur og korte beslutningsveier. Hos oss er det enorme utviklingsmuligheter for alle som gjøren god jobb og som ønsker å utvikle seg. Varighet og øvrige betingelser blir vi enige om under intervjuet. For at vår rekrutteringsprosess skal bli så effektiv som mulig ber vi deg benytte link til vår jobbportal og fylle ut alle data vi etterspør. Aktuelle kandidater vil bli innkalt til intervju fortløpende. Velkommen til Consto! Kontaktinformasjon Jon ",
+   "categories": [
+    "Bygg og anlegg",
+    "Ingeniør miljøteknikk",
+    "Sivilingeniør miljøteknikk",
+    "Sivilingeniører (miljøteknikk)"
    ]
   }
  }
