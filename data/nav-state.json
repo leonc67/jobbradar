@@ -1,5 +1,5 @@
 {
- "cursor": "/api/v1/feed/40a032a0-e321-49e7-95e9-960c3f42a30c",
+ "cursor": "/api/v1/feed/f269de3a-d16c-41a5-9de9-e180d4a03dbe",
  "ads": {
   "7291f326-1537-4185-895e-b8057375c770": {
    "source": "nav",
@@ -170,26 +170,6 @@
     "Rørlegger",
     "Rørleggere og VVS-montører",
     "Vann- og avløpsrøroperatør"
-   ]
-  },
-  "067d631a-d8a7-41d7-be34-4e605803a0cd": {
-   "source": "nav",
-   "sourceId": "067d631a-d8a7-41d7-be34-4e605803a0cd",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/067d631a-d8a7-41d7-be34-4e605803a0cd",
-   "company": "Buildright",
-   "title": "Forward Deployed Engineer Intern",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": null,
-   "rolling": true,
-   "text": "Bygg &#43; AI &#61; deg? Studentjobb, ca. 1 dag i uken · Construction City, Ulven (Oslo) Hver dag skjer de samme feilene på byggeplasser over hele Norge. Dataene som kunne stoppet dem finnes allerede, de blir bare aldri brukt. Det fikser vi. Buildright er en startup som bruker AI til å gjøre byggeprosjekter smartere. Vi er støttet av Startuplab og jobber med en av Norges største totalentreprenører. Nå trenger vi en student som kan bygg og som er nysgjerrig på hva AI kan gjøre for bransjen. Hva du faktisk skal gjøre Hjelpe anleggsledere og prosjektledere å få mer ut av løsningen vår i hverdagen Teste nye funksjoner sammen med brukerne og ta innspillene deres rett til utviklerne Lære AI-en vår å snakke byggfaglig: hva er et avvik, hvorfor skjer det, og hvordan henger det sammen med resten av prosjektet? Du er kanskje den vi ser etter hvis du Tar en master innen bygg, anlegg, konstruksjon eller lignende Bruker Claude eller andre AI-modeller i hverdagen og har meninger om hvor de er gode og hvor de bommer Liker å finne system og sammenhenger, og heller graver deg ned i et problem enn venter på å få det forklart Snakker og skriver flytende norsk og engelsk Byggeplasserfaring er et pluss, men ikke et krav. Går du på bachelor eller fagskole, for eksempel BIM, og kjenner deg igjen i resten? Søk likevel. Vi ser etter talent, ikke bare grad. Ærlig talt Vi er en startup. Det går fort, ting endrer seg, og du får ansvar fra dag én. Du jobber tett med gründerne og utviklerne, ikke tre ledd under dem. Vil du ha ferdige oppskrifter, er dette ikke stedet. Vil du være med og bygge noe nytt, er det det. Hva du får Praktisk erfaring med AI i bygg, på ekte prosjekter med ekte brukere Nettverk i både byggebransjen og contech-miljøet: Construction City er hjemmet til Betonmast, AF, NCC, OBOS og mange flere, og gjennom Startuplab blir du en del av et av Nordens største startup-miljøer Fleksible timer rundt studiene En vei videre: fra studentjobb til deltids Forward Deployed Engineer, og ka",
-   "categories": [
-    "IT",
-    "Utvikling",
-    "programvarearkitekt",
-    "Arkitekt/utvikler",
-    "Programvareutviklere"
    ]
   },
   "018b7b4b-b8c4-4bc5-bdb2-436dfc2fb5bb": {
