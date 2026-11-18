@@ -1,5 +1,5 @@
 {
- "cursor": "/api/v1/feed/1a89829c-3c94-47b1-9cae-da0e6cef097e",
+ "cursor": "/api/v1/feed/e828f34c-9a9f-4872-8e07-b6d7db9ff1cf",
  "ads": {
   "7291f326-1537-4185-895e-b8057375c770": {
    "source": "nav",
@@ -763,6 +763,25 @@
     "Reiseliv, hotell og overnatting",
     "Turguide",
     "Reiseledere og guider"
+   ]
+  },
+  "8c02cf58-ea7f-471e-a4e5-fe9d1c0fa2e8": {
+   "source": "nav",
+   "sourceId": "8c02cf58-ea7f-471e-a4e5-fe9d1c0fa2e8",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8c02cf58-ea7f-471e-a4e5-fe9d1c0fa2e8",
+   "company": "First Camp",
+   "title": "Sommerjobb i resepsjonen på First Camp Norsjø – bli en del av teamet vårt! ☀️",
+   "locations": [
+    "Akkerhaugen"
+   ],
+   "deadline": null,
+   "rolling": true,
+   "text": "Vil du ha en sommerjobb med varierte arbeidsdager, hyggelige kollegaer og muligheten til å skape gode ferieopplevelser for våre gjester? På First Camp Norsjø søker vi positive og serviceinnstilte medarbeidere som ønsker å bli en del av resepsjonsteamet vårt sommeren 2027! Resepsjonen er hjertet av destinasjonen vår, og som resepsjonist er du ofte den første gjestene møter når de kommer til oss. Du er med på å skape et godt førsteinntrykk, hjelpe gjestene gjennom oppholdet og sørge for at de reiser hjem med gode sommerminner. Hos oss er ingen dager helt like! I løpet av sommeren møter vi gjester fra både inn- og utland, og du blir en del av et team som samarbeider tett for å skape gode opplevelser – også når det er mye som skjer. Hvem er First Camp? Vi er en del av First Camp Group, Nord-Europas ledende konsern innen camping og resort. Sammen er vi på en spennende reise med en tydelig, felles visjon: å skape en verdensledende campingkjede – der vi er first choice for gjester, medarbeidere og campingbransjen i Europa. Vi utfordrer det som allerede finnes, og skaper løsningene som ennå ikke finnes. Bærekraftig utvikling og datadrevet innsikt i gjester og medarbeidere er viktige fokusområder for sammen å skape moments of happiness – hver dag. Hva innebærer rollen? Som resepsjonist på Norsjø får du en variert arbeidshverdag med både gjestekontakt, salg og praktiske oppgaver. Arbeidsoppgavene dine vil blant annet være: Inn- og utsjekking av gjester Håndtering av bookinger, reservasjoner og gjestehenvendelser Salg, kassearbeid og daglig drift av butikken Varepåfylling og sørge for at resepsjonen og butikken fremstår ryddig og innbydende Informasjon om destinasjonen, aktiviteter og tilbud i nærområdet Håndtering av utfordringer og å finne gode løsninger for gjestene Samarbeid med andre avdelinger og bidra der det er behov I høysesongen er det til tider høyt tempo, mange gjester og flere oppgaver som skal løses samtidig. Derfor er det viktig at du klarer å holde oversikten, ",
+   "categories": [
+    "Håndverkere",
+    "Vaktmester",
+    "Ekstrahjelp til resepsjonen",
+    "Altmuligmann"
    ]
   }
  }
