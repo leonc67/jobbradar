@@ -1,5 +1,5 @@
 {
- "cursor": "/api/v1/feed/e828f34c-9a9f-4872-8e07-b6d7db9ff1cf",
+ "cursor": "/api/v1/feed/414bf1af-a7dd-419c-bb01-f5ddda96fb0c",
  "ads": {
   "7291f326-1537-4185-895e-b8057375c770": {
    "source": "nav",
@@ -748,12 +748,12 @@
    "company": "Voss Og Fjordane Guideservice As",
    "title": "Tour Guide – Voss & the Fjords of Western Norway - Summer 2027",
    "locations": [
-    "Aurland",
-    "Eidfjord",
-    "Kvinnherad",
+    "Voss",
     "Ulvik",
+    "Eidfjord",
+    "Aurland",
     "Vik",
-    "Voss"
+    "Kvinnherad"
    ],
    "deadline": "2027-01-22",
    "rolling": false,
@@ -782,6 +782,38 @@
     "Vaktmester",
     "Ekstrahjelp til resepsjonen",
     "Altmuligmann"
+   ]
+  },
+  "498094ba-6064-4359-82cd-4ddc1f06e75f": {
+   "source": "nav",
+   "sourceId": "498094ba-6064-4359-82cd-4ddc1f06e75f",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/498094ba-6064-4359-82cd-4ddc1f06e75f",
+   "company": "Forsvarsbygg",
+   "title": "Summer internship 2027",
+   "locations": [
+    "Oslo"
+   ],
+   "deadline": "2026-12-15",
+   "rolling": false,
+   "text": "Vil du være med på å forme fremtidens byggeprosjekter for Forsvaret? Forsvarsbygg har en sentral rolle i å opprettholde Norges frihet og suverenitet. Vårt oppdrag er å sørge for at alt av eiendom, bygg og anlegg som Forsvaret bruker fungerer slik det skal og er klart til bruk, og slik støtter vi Forsvarets operasjoner slik at de kan øve og operere i fred, krise og krig. Forsvarsbygg står foran en av sine største digitale satsinger de kommende årene. Gjennom prosjektet forvaltning, drift og vedlikehold (FDV) utvikler vi en ny digital plattform som skal modernisere måten forsvarssektorens eiendommer, bygg og anlegg forvaltes på. Her får du muligheten til å bidra i et komplekst og samfunnsviktig prosjekt, der målet er å styrke datagrunnlaget for beslutninger, effektivisere arbeidsprosesser og legge til rette for smartere ressursbruk på tvers av virksomheten. Som summer intern i Forsvarsbygg får du anvende det du lærer på studiet, samarbeide med studenter fra andre fagområder og bli kjent med et av Norges største fagmiljøer innen bygg og eiendom. Du får jobbe med reelle problemstillinger i et tverrfaglig team, med støtte og veiledning fra faddere og fagpersoner i organisasjonen. Du vil bruke din helt egne fagkompetanse til å forme prosjektets innretning. Ved slutten av oppholdet vil du og gruppen presentere deres funn for hele ledergruppen og andre ansatte i Forsvarsbygg. En sosial og minnerik sommer Sommer hos oss handler ikke bare om fag. Vi legger like stor vekt på trivsel, miljø og fellesskap. Du kan se frem til alt fra quiz og grillkvelder til volleyballturneringer, utflukter og ikke minst nye vennskap som varer lenge etter sommeren. Internshipet varer i totalt 6 uker og du vil sitte i vårt hovedkontor sentralt i Oslo. Les mer om programmet og våre tidligere sommerstudenter på våre karrieresider . Se også vår Instagram for bilder og stories fra tidligere år. Arbeidsoppgaver Som summer intern får du arbeide tett på et av Forsvarsbyggs viktigste digitaliseringsprosje",
+   "categories": [
+    "Bygg og anlegg",
+    "Ingeniør bygg",
+    "IT",
+    "Drift, vedlikehold",
+    "Kontor og økonomi",
+    "Økonomi, statistikk og regnskap",
+    "Salg og service",
+    "Eiendomsmegler",
+    "Regnskapsførere",
+    "Bygg- og anleggsingeniør",
+    "Eiendomsforvalter",
+    "IT-medarbeider",
+    "Økonomiarbeider",
+    "Bygningsingeniører",
+    "Eiendomsmeglere og - forvaltere",
+    "Driftsteknikere, IKT",
+    "Regnskapsmedarbeidere"
    ]
   }
  }
