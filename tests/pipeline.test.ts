@@ -82,6 +82,7 @@ describe('kilder', () => {
     expect(isIt(nav('Sommerstudent informasjonssikkerhet'))).toBe(true);
     expect(isIt(nav('Sommerstudent IT-sikkerhet og beredskap'))).toBe(true);
     expect(isIt(nav('Sommerstudent skyplattform'))).toBe(true);
+    expect(isIt(nav('Sommerjobb 2027 innen kryptologi', ['Matematikere', 'Kryptograf']))).toBe(true);
     expect(isIt(nav('Sommerjobb forretningsutvikling', ['Salg']))).toBe(false);
     expect(isIt(nav('Sommerjobb eiendomsutvikling', ['Eiendom']))).toBe(false);
   });

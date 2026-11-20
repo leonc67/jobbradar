@@ -75,6 +75,8 @@ export const config = {
     // Ikke alle forledd: "forretningsutvikling" og "eiendomsutvikling" er ikke IT.
     word('(system|programvare|app|web|software|spill|tjeneste|løsnings|frontend|backend)?utvikl(er|ere|ing)\\p{L}*|develop(er|ment)?|programm\\p{L}*|kode|code'),
     word('programvare\\p{L}*|system(arkitekt|utvikl|integrasjon)\\p{L}*|(informasjons|kommunikasjons)teknologi\\p{L}*'),
+    // Kryptografi og informatikk (NSM-annonsen om kryptologi ble borte uten disse)
+    word('krypto(logi|grafi|graf|system|algoritme)\\p{L}*|cryptograph\\p{L}*|cryptology|informatikk|informatics'),
     word('(informasjons|data|nett|cyber|it|ikt|digital|applikasjons)sikkerhet\\p{L}*|(cyber|information|network)\\s+security|nettverk\\p{L}*|network|cloud|sky(tjenester|teknologi|plattform)\\p{L}*'),
     word('maskinlæring|machine\\s+learning|analytics|infrastruktur|infrastructure'),
   ],
