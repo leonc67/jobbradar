@@ -1,5 +1,5 @@
 {
- "cursor": "/api/v1/feed/478d0459-0e64-4b2e-b331-9e4aae18978d",
+ "cursor": "/api/v1/feed/b88b15d1-72e9-4562-869c-d1b3f1da8511",
  "ads": {
   "7291f326-1537-4185-895e-b8057375c770": {
    "source": "nav",
@@ -793,6 +793,25 @@
     "Lege",
     "Medisinstudent med legelisens",
     "Allmennpraktiserende leger"
+   ]
+  },
+  "61ec9bf1-d308-4eae-9fc9-089abd8548ab": {
+   "source": "nav",
+   "sourceId": "61ec9bf1-d308-4eae-9fc9-089abd8548ab",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/61ec9bf1-d308-4eae-9fc9-089abd8548ab",
+   "company": "Enova SF",
+   "title": "Sommerstudenter innen klima- og energiomstilling",
+   "locations": [
+    "Trondheim"
+   ],
+   "deadline": "2027-01-01",
+   "rolling": false,
+   "text": "Om stillingene Vi er på utkikk etter syv studenter som ønsker å engasjere seg i prosjekter som skal gjennomføres sommeren 2027. På hvert prosjekt vil du være en del av et tverrfaglig team bestående av tre til fire studenter fra ulike studier. Du vil få en unik mulighet til å kombinere ferdigheter fra studiet i en praktisk setting, samt få relevante erfaringer knyttet til klima, bærekraft og innovasjon. Prosjektene omhandler konkrete utfordringer og vil ha stor nytte for både Enova og samfunnet generelt. Her har du sjansen til å bidra inn hos en viktig samfunnsaktør! Vi jobber for tiden med å utforme prosjektoppgaver som skal gjennomføres sommeren 2027, men du kan Her se eksempler på tidligere sommerprosjekter og lese om Enovas studentsamarbeid. Aktuelle kandidater må være tilgjengelig for rekrutteringsdag torsdag 15.januar. Video: https://www.youtube.com/watch?v&#61;yiMgRsBWqbg Vi søker åtte sommerstudenter. Er du en av dem? Vi ser etter deg som har interesse for energi- og klimaspørsmål og evne til å sette deg inn i ulike teknologiske, forretningsmessige og økonomiske spørsmål. Vi er på jakt etter studenter fra ulike fagretninger og vil sette sammen tverrfaglige grupper med komplementerende ferdigheter. Eksempler på fagretninger kan være informatikk, datateknologi, dataingeniør, informasjonssikkerhet, fornybar energi, energi og miljø, ingeniørfag, sirkulærøkonomi, samfunnsøkonomi, finansiell økonomi, statsvitenskap og samfunnsvitenskap. Listen er ikke uttømmende, og vi tar gjerne imot søknader fra andre fagretninger også. Vi søker etter 3. og 4.-års studenter. Ved vurdering av den best kvalifiserte søkeren, legger vi vekt på utdanning, erfaring og motivasjon for stillingene. Prosjektene skal utføres i tidsperioden 14.06.2027- 12.08.2027 . I juli skal det avvikles 2 uker ferie etter avtale. Det vil være mulighet for utvidelse med timesbasert arbeid videre utover høsten. Vi ønsker en kortfattet søknad og karakterutskrift må legges ved. Søknadsfrist: 03.01.2027 Har du",
+   "categories": [
+    "Natur og miljø",
+    "Naturvitenskapelige yrker",
+    "Klimakonsulent",
+    "Meteorologer"
    ]
   }
  }
