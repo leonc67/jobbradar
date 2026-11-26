@@ -1,5 +1,5 @@
 {
- "cursor": "/api/v1/feed/b88b15d1-72e9-4562-869c-d1b3f1da8511",
+ "cursor": "/api/v1/feed/ab36060d-4791-46b7-8c64-42d0f1b30382",
  "ads": {
   "7291f326-1537-4185-895e-b8057375c770": {
    "source": "nav",
@@ -581,29 +581,6 @@
     "Hjelpearbeidere i bygg"
    ]
   },
-  "9a2ee255-3783-4578-9d3e-3dba1756f56f": {
-   "source": "nav",
-   "sourceId": "9a2ee255-3783-4578-9d3e-3dba1756f56f",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/9a2ee255-3783-4578-9d3e-3dba1756f56f",
-   "company": "Gourmet Food As",
-   "title": "Summer job / Kitchen Employees / food truck",
-   "locations": [
-    "Oslo"
-   ],
-   "deadline": "2026-11-25",
-   "rolling": false,
-   "text": "Job description Work tasks Receive food and drink orders and operate the till from customers so that they are satisfied and return. Prepare and cook food - serve food to customers Daily maintenance of order and hygiene in the food truck Assist with driving the food truck at various locations We offer Variable working hours, both on weekdays and weekends Summer job from Mai-Sep Salary according to agreement, with good salary conditions. Skills requirements We need an experienced worker with a quick mind, cook if possible, fast working pace, long working hours, also a lot of work at weekends. Work with frequent high tempo You are positive and willing to learn, an eye for food hygiene, order and cleanliness Driving license class B Language English-intermediate",
-   "categories": [
-    "Reiseliv og mat",
-    "Kokk",
-    "Salg og service",
-    "Salg, butikk- og varehandel",
-    "medarbeider på hurtigmatrestaurant",
-    "Gatekjøkkenmedarbeider",
-    "Kokker",
-    "Gatekjøkken- og kafémedarbeidere mv."
-   ]
-  },
   "f249310d-ab96-4ee1-8d82-4898264f1c16": {
    "source": "nav",
    "sourceId": "f249310d-ab96-4ee1-8d82-4898264f1c16",
@@ -812,6 +789,82 @@
     "Naturvitenskapelige yrker",
     "Klimakonsulent",
     "Meteorologer"
+   ]
+  },
+  "502e0b8a-1237-4f12-a3f6-1f3530fbbd6f": {
+   "source": "nav",
+   "sourceId": "502e0b8a-1237-4f12-a3f6-1f3530fbbd6f",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/502e0b8a-1237-4f12-a3f6-1f3530fbbd6f",
+   "company": "Norsk Regnesentral STI",
+   "title": "Sommerjobber som forskningsassistent 2027",
+   "locations": [
+    "Oslo"
+   ],
+   "deadline": "2027-02-07",
+   "rolling": false,
+   "text": "Prøv deg som forsker Norsk Regnesentral STI (NR) ser etter studenter med bakgrunn fra statistikk, informatikk, maskinlæring eller nærliggende fagfelt som er nysgjerrige på forskning. Gjennom en sommerjobb hos oss får du en unik mulighet til å se hvordan vi jobber med anvendt forskning, du får delta i prosjekter, hvor du kan anvende teori fra studiet i praksis og samtidig knytte langsiktige kontakter. Over sommeren vil du bli få oppgaver knyttet til et forskningsprosjekt, og underveis vil du få tett oppfølgning av våre erfarne forskere. Aktuelle tema for sommerjobbene I forskningsavdelingen Bildeanalyse og jordobservasjon utvikler vi metoder for å analysere bildedata fra ulike typer kameraer og sensorer. Aktuelle tema for sommerjobbene i Bildeanalyse og jordobservasjon er metoder basert på dyp læring for deteksjon, karakterisering og gjenkjenning av objekter fra bildedata innen områder som medisin, jordobservasjon, marin, industri og energi. I forskningsavdelingen Anvendt IKT-forskning jobber vi med digitalisering, digital inkludering og beredskap. Aktuelle tema for sommerjobbene i Anvendt IKT-forskning er digitaliseringsvennlig regelverk og maskinell analyse av regelverk med hjelp av KI, utforme og eventuelt gjennomføre brukerstudier, analysere data fra brukerstudier og undersøke brukervennlighet av digitale løsninger. I forskningsavdelingen Statistisk modellering og maskinlæring utvikler og anvender vi statistiske modeller og metoder for maskinlæring, språkteknologi og kunstig intelligens til å løse utfordringer innen mange ulike bransjer. Tidligere sommerprosjekter ved Statistisk modellering og maskinlæring har omhandlet temaer som landbruk, hydrologi, kraftmarkedet, språkmodeller og forklarbar kunstig intelligens. Aktuelle tema kan også være prosjekter tilknyttet forskningssenteret TRUST. I forskningsavdelingen Statistisk modellering av geologi jobber vi med å utvikle realistiske matematiske modeller for geologi og geofysikk. Modellene brukes i olje- og gassindus",
+   "categories": [
+    "Utdanning",
+    "Universitet og høyskole",
+    "Forskningsassistent",
+    "Universitets- og høyskolelektorer/-lærere"
+   ]
+  },
+  "5f3b5d95-6c9a-4f94-9623-2c807a8b5d24": {
+   "source": "nav",
+   "sourceId": "5f3b5d95-6c9a-4f94-9623-2c807a8b5d24",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/5f3b5d95-6c9a-4f94-9623-2c807a8b5d24",
+   "company": "Orkdal Sjukehus, St. Olavs hospital",
+   "title": "Har du lyst på en engasjerende og meningsfull sommerjobb med mulighet for videre engasjement?",
+   "locations": [
+    "Orkanger"
+   ],
+   "deadline": "2027-01-07",
+   "rolling": false,
+   "text": "E r du en person med faglig engasjement og gode samarbeidsevner? Hvis du i tillegg har god arbeidskapasitet og liker et høyt tempo, ser vi fram til å motta en søknad fra nettopp deg! Vi søker etter spesialsykepleiere, sykepleiere, sykepleierstudenter, medisinstudenter uten lisens, helsefagarbeidere/ hjelpepleiere, helsesekretærer til ferievikariater ved Medisinsk avdeling, Kirurgisk avdeling, Felles Mottaksavdeling og Kreftpoliklinikk Orkdal Sjukehus sommeren 2027. Dette er en mulighet til å tilegne seg unik breddekompetanse og til å få mange nye kollegaer. Kanskje finner du din drømmeavdeling? Vi søker ferievikarer til følgende virksomheter: Medisinske sengeposter B2M og B4 Kirurgisk og ortopedisk sengepost B3K Kombinert overvåkningsavdeling (KOVA) Akuttmottak/ LV-sentral Felles kontortjeneste Kreftpoliklinikk Søkere som er aktuelle for å jobbe deltid eller deler av sommeren oppfordres også til å søke. Orkdal Sjukehus er et akuttsykehus og er en del av St. Olavs hospital, Universitetssykehuset i Trondheim. Sykehuset ligger ca. 40 km i pendleravstand fra Trondheim med gode buss- og veiforbindelser og gratis parkering. I rekrutteringen av ferievikarer vil St. Olavs hospital starte behandlingen av søknadene fortløpende. Arbeidsoppgaver Arbeidsoppgavene vil variere ut ifra hvilken stilling som tilbys Kvalifikasjoner Du er autorisert spesialsykepleier/ sykepleier Du er autorisert helsefagarbeider/ hjelpepleier Du er autorisert helsesekretær Du er student innen sykepleie eller medisin Ønskelig med erfaring fra arbeid på sykehus Du har god muntlig og skriftlig formuleringsevne på norsk Du har gode IKT-ferdigheter Vennligst oppgi 2 referanser Personlige egenskaper Du har et stort faglig engasjement, og tar et selvstendig ansvar for å holde deg faglig oppdatert Du er ansvarsbevisst og har evne til å planlegge og prioritere oppgavene Du har evne til å jobbe både selvstendig og i team Du er lojal, samarbeidsvillig og fleksibel Du bidrar aktivt til å bevare vårt gode arbeidsmi",
+   "categories": [
+    "Helse og sosial",
+    "Hjemmehjelper og personlig assistent",
+    "Assistent hjemmehjelp",
+    "Hjemmehjelper"
+   ]
+  },
+  "dfba970f-4053-4b98-8e08-aa27d18d789a": {
+   "source": "nav",
+   "sourceId": "dfba970f-4053-4b98-8e08-aa27d18d789a",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/dfba970f-4053-4b98-8e08-aa27d18d789a",
+   "company": "Hjerte- og thoraxklinikken, St. Olavs hospital",
+   "title": "Sommerjobb med puls – bli ferievikar på Hjerte- og thoraxklinikken",
+   "locations": [
+    "Trondheim"
+   ],
+   "deadline": "2027-01-07",
+   "rolling": false,
+   "text": "Vil du bruke sommeren på å lære masse, få gode kolleger og en solid start på karrieren? Hos oss jobber du med hjertepasienter i alle faser, fra akutte infarkter og rytmeforstyrrelser til hjertesvikt og pasienter pre- og postoperative hjerte- og lungepasienter. Du får erfaring mange sykepleiere ønsker seg, og for mange blir sommerjobben starten på en karriere i kardiologisk og thoraxkirurgisk sykepleie. Det er lov å være ny. Du får god opplæring før sommeren og har alltid erfarne kolleger rundt deg som tar seg tid til å svare på spørsmål. Dette får du hos oss: Et faglig sterkt miljø på et av landets mest avanserte og moderne sentre Kolleger som hjelper hverandre, også når det er travelt Vi søker sykepleiere, sykepleierstudenter og helsefagarbeidere til perioden 14. juni–15. august ved én av våre fire sengeenheter: Thoraxkirurgisk sengepost med tung overvåkning HMS1 – koronarenhet / generell kardiologi HMS2 – hjerterytmeenhet / generell kardiologi HMS3 – hjertesviktenhet / generell kardiologi I rekrutteringen av ferievikarer vil St.Olavs hospital HF starte behandlingen av søknadene fortløpende. informasjon om Hjerte- og thoraxklinikken Arbeidsoppgaver Sykepleie til pasienter med hjertesykdom og kirurgiske hjerte- og lungepasienter, samt thoraxtraumer. Det er turnusarbeid med arbeid på dag, kveld og natt i ukedager og helg Kvalifikasjoner Autorisasjon som sykepleier Sykepleiestudent Helsefagarbeider Gode holdninger Faglig engasjert Personlige egenskaper Ansvarsbevisst Fleksibel Gode samarbeidsevner Bidragsyter til et godt arbeidsmiljø Vi tilbyr Lønn i henhold til gjeldende overenskomst Inkluderende og trivelig arbeidsmiljø God opplæring - som inkluderer både teoriundervisning og opplæringsvakter En spennende og lærerik arbeidsplass, hvor vi alle husker hvordan det var å være ny Vennligst oppgi to referanser. Kontaktinformasjon Gunhild Brørs, Avdelingssjef sykepleie, 41259563 Ann Kristin Hjellnes, Avdelingssjef helsefag, 72826882 Ingunn Rønningen Laugsand, HR-rådgiver, ",
+   "categories": [
+    "Helse og sosial",
+    "Hjemmehjelper og personlig assistent",
+    "Assistent hjemmehjelp",
+    "Hjemmehjelper"
+   ]
+  },
+  "f4b89d4b-2374-4b8e-aa3b-485fba5ef098": {
+   "source": "nav",
+   "sourceId": "f4b89d4b-2374-4b8e-aa3b-485fba5ef098",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/f4b89d4b-2374-4b8e-aa3b-485fba5ef098",
+   "company": "Movikveien 16 As",
+   "title": "Søker praktikanter innen tømrer- og snekkerarbeid – Nøtterøy",
+   "locations": [
+    "Torød"
+   ],
+   "deadline": null,
+   "rolling": true,
+   "text": "Hva vi ser etter Vi søker praktikanter til vårt boligprosjekt i Movikveien 16 på Nøtterøy. Vi ønsker å komme i kontakt med personer som har interesse for tømrer- og snekkerfaget, ønsker å tilegne seg praktisk erfaring eller har tidligere erfaring innen bygg og anlegg. Arbeidet vil foregå under veiledning og oppfølging av vår byggeleder, som har mange års erfaring i bransjen. Arbeidsoppgaver: Teiping av dampsperre Enklere tømrer- og snekkerarbeid Opprydding og organisering på byggeplassen Bistand ved øvrige byggearbeider Vi ser etter deg som: Er motivert og lærevillig Er pålitelig og møter presis Har interesse for bygg- og tømrerfaget Er praktisk anlagt og samarbeidsvillig Tidligere erfaring er en fordel, men ikke et krav. Varighet og muligheter: I første omgang gjelder praksisen noen få arbeidsdager. For personer som viser interesse, engasjement og god arbeidsinnsats, kan det åpne seg muligheter for videre praksis og arbeidsoppgaver på våre øvrige prosjekter. Arbeidssted: Movikveien 16, Nøtterøy. Vi ønsker å gi motiverte personer en mulighet til å utvikle seg, få praktisk erfaring og bli bedre kjent med byggebransjen. Arbeidsoppgaver Arbeidsoppgaver: Teiping av dampsperre Enklere tømrer- og snekkerarbeid Opprydding og organisering på byggeplassen Bistand ved øvrige byggearbeider Vi tilbyr Praktisk arbeidserfaring på et aktivt boligprosjekt. God veiledning og oppfølging av en erfaren byggeleder. Mulighet til å utvikle praktiske ferdigheter innen tømrer- og snekkerfaget. Et inkluderende og hyggelig arbeidsmiljø. Varierte arbeidsoppgaver og innsikt i byggeprosessen. Mulighet til å vise frem egne ferdigheter og bygge relevant arbeidserfaring. Mulighet for videre praksis eller arbeid på våre øvrige byggeprosjekter ved god arbeidsinnsats, interesse og engasjement. Vi ønsker å gi motiverte personer en mulighet til å komme inn i byggebransjen, utvikle seg faglig og opparbeide seg verdifull arbeidserfaring.",
+   "categories": [
+    "Håndverkere",
+    "Tømrer og snekker",
+    "Snekkerlærling",
+    "Tømrere og snekkere"
    ]
   }
  }
