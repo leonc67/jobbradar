@@ -1,5 +1,5 @@
 {
- "cursor": "/api/v1/feed/ab36060d-4791-46b7-8c64-42d0f1b30382",
+ "cursor": "/api/v1/feed/e663eb91-b529-40aa-b8d7-47273a384b66",
  "ads": {
   "7291f326-1537-4185-895e-b8057375c770": {
    "source": "nav",
@@ -824,9 +824,23 @@
    "text": "E r du en person med faglig engasjement og gode samarbeidsevner? Hvis du i tillegg har god arbeidskapasitet og liker et høyt tempo, ser vi fram til å motta en søknad fra nettopp deg! Vi søker etter spesialsykepleiere, sykepleiere, sykepleierstudenter, medisinstudenter uten lisens, helsefagarbeidere/ hjelpepleiere, helsesekretærer til ferievikariater ved Medisinsk avdeling, Kirurgisk avdeling, Felles Mottaksavdeling og Kreftpoliklinikk Orkdal Sjukehus sommeren 2027. Dette er en mulighet til å tilegne seg unik breddekompetanse og til å få mange nye kollegaer. Kanskje finner du din drømmeavdeling? Vi søker ferievikarer til følgende virksomheter: Medisinske sengeposter B2M og B4 Kirurgisk og ortopedisk sengepost B3K Kombinert overvåkningsavdeling (KOVA) Akuttmottak/ LV-sentral Felles kontortjeneste Kreftpoliklinikk Søkere som er aktuelle for å jobbe deltid eller deler av sommeren oppfordres også til å søke. Orkdal Sjukehus er et akuttsykehus og er en del av St. Olavs hospital, Universitetssykehuset i Trondheim. Sykehuset ligger ca. 40 km i pendleravstand fra Trondheim med gode buss- og veiforbindelser og gratis parkering. I rekrutteringen av ferievikarer vil St. Olavs hospital starte behandlingen av søknadene fortløpende. Arbeidsoppgaver Arbeidsoppgavene vil variere ut ifra hvilken stilling som tilbys Kvalifikasjoner Du er autorisert spesialsykepleier/ sykepleier Du er autorisert helsefagarbeider/ hjelpepleier Du er autorisert helsesekretær Du er student innen sykepleie eller medisin Ønskelig med erfaring fra arbeid på sykehus Du har god muntlig og skriftlig formuleringsevne på norsk Du har gode IKT-ferdigheter Vennligst oppgi 2 referanser Personlige egenskaper Du har et stort faglig engasjement, og tar et selvstendig ansvar for å holde deg faglig oppdatert Du er ansvarsbevisst og har evne til å planlegge og prioritere oppgavene Du har evne til å jobbe både selvstendig og i team Du er lojal, samarbeidsvillig og fleksibel Du bidrar aktivt til å bevare vårt gode arbeidsmi",
    "categories": [
     "Helse og sosial",
-    "Hjemmehjelper og personlig assistent",
-    "Assistent hjemmehjelp",
-    "Hjemmehjelper"
+    "Sykepleier",
+    "Vernepleier",
+    "Helsefagarbeider",
+    "Helsesekretær",
+    "Andre helseyrker",
+    "Lege",
+    "Leger",
+    "Spesialsykepleier",
+    "Sykepleierstudent",
+    "Medisinstudent",
+    "Spesialsykepleiere",
+    "Sykepleiere",
+    "Vernepleiere",
+    "Helsefagarbeidere",
+    "Helsesekretærer",
+    "Andre pleiemedarbeidere",
+    "Allmennpraktiserende leger"
    ]
   },
   "dfba970f-4053-4b98-8e08-aa27d18d789a": {
@@ -843,9 +857,9 @@
    "text": "Vil du bruke sommeren på å lære masse, få gode kolleger og en solid start på karrieren? Hos oss jobber du med hjertepasienter i alle faser, fra akutte infarkter og rytmeforstyrrelser til hjertesvikt og pasienter pre- og postoperative hjerte- og lungepasienter. Du får erfaring mange sykepleiere ønsker seg, og for mange blir sommerjobben starten på en karriere i kardiologisk og thoraxkirurgisk sykepleie. Det er lov å være ny. Du får god opplæring før sommeren og har alltid erfarne kolleger rundt deg som tar seg tid til å svare på spørsmål. Dette får du hos oss: Et faglig sterkt miljø på et av landets mest avanserte og moderne sentre Kolleger som hjelper hverandre, også når det er travelt Vi søker sykepleiere, sykepleierstudenter og helsefagarbeidere til perioden 14. juni–15. august ved én av våre fire sengeenheter: Thoraxkirurgisk sengepost med tung overvåkning HMS1 – koronarenhet / generell kardiologi HMS2 – hjerterytmeenhet / generell kardiologi HMS3 – hjertesviktenhet / generell kardiologi I rekrutteringen av ferievikarer vil St.Olavs hospital HF starte behandlingen av søknadene fortløpende. informasjon om Hjerte- og thoraxklinikken Arbeidsoppgaver Sykepleie til pasienter med hjertesykdom og kirurgiske hjerte- og lungepasienter, samt thoraxtraumer. Det er turnusarbeid med arbeid på dag, kveld og natt i ukedager og helg Kvalifikasjoner Autorisasjon som sykepleier Sykepleiestudent Helsefagarbeider Gode holdninger Faglig engasjert Personlige egenskaper Ansvarsbevisst Fleksibel Gode samarbeidsevner Bidragsyter til et godt arbeidsmiljø Vi tilbyr Lønn i henhold til gjeldende overenskomst Inkluderende og trivelig arbeidsmiljø God opplæring - som inkluderer både teoriundervisning og opplæringsvakter En spennende og lærerik arbeidsplass, hvor vi alle husker hvordan det var å være ny Vennligst oppgi to referanser. Kontaktinformasjon Gunhild Brørs, Avdelingssjef sykepleie, 41259563 Ann Kristin Hjellnes, Avdelingssjef helsefag, 72826882 Ingunn Rønningen Laugsand, HR-rådgiver, ",
    "categories": [
     "Helse og sosial",
-    "Hjemmehjelper og personlig assistent",
-    "Assistent hjemmehjelp",
-    "Hjemmehjelper"
+    "Sykepleier",
+    "sykepleier",
+    "Sykepleiere"
    ]
   },
   "f4b89d4b-2374-4b8e-aa3b-485fba5ef098": {
@@ -865,6 +879,53 @@
     "Tømrer og snekker",
     "Snekkerlærling",
     "Tømrere og snekkere"
+   ]
+  },
+  "4e864830-d99b-454d-be08-20805ba069bf": {
+   "source": "nav",
+   "sourceId": "4e864830-d99b-454d-be08-20805ba069bf",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/4e864830-d99b-454d-be08-20805ba069bf",
+   "company": "POWERCARE NORGE AS",
+   "title": "Nyfødtintensivsykepleier - Sommerjobb i Trondheim",
+   "locations": [
+    "Oslo"
+   ],
+   "deadline": null,
+   "rolling": true,
+   "text": "Om stillingen Vi søker en engasjert og dyktig nyfødtintensivsykepleier for en spennende sommerjobb i Trondheim, Norge. Dette er en unik mulighet for deg som ønsker å kombinere faglig utvikling med en fantastisk sommeropplevelse i en av Norges vakreste byer. Arbeidsoppgaver Som nyfødtintensivsykepleier hos oss vil du ha ansvar for pleie og behandling av nyfødte og premature barn som krever intensivbehandling. Du vil arbeide tett med et tverrfaglig team av leger, sykepleiere og annet helsepersonell for å sikre best mulig omsorg for de minste pasientene. Kvalifikasjoner Autorisasjon som sykepleier i Norge Videreutdanning innen nyfødtintensiv eller relevant klinisk erfaring God faglig og klinisk vurderingsevne Gode kommunikasjonsevner og evne til å arbeide i team Evne til å arbeide strukturert og selvstendig i en krevende klinisk hverdag Vi tilbyr Gratis reise og bolig under arbeidsoppdraget Konkurransedyktige lønnsbetingelser Overtidstillegg og 12 % feriepenger Full fleksibilitet – du bestemmer selv når og hvor mye du vil jobbe Pensjonsopptjening og gode forsikringsordninger Tett og personlig oppfølging fra bemanningskonsulent som selv er sykepleier Søknad Er du den vi søker etter? Vi ser frem til å høre fra deg!",
+   "categories": []
+  },
+  "22f02ef5-713c-4dc5-a3d5-f6a3ca8229fa": {
+   "source": "nav",
+   "sourceId": "22f02ef5-713c-4dc5-a3d5-f6a3ca8229fa",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/22f02ef5-713c-4dc5-a3d5-f6a3ca8229fa",
+   "company": "Ardoq",
+   "title": "Product Designer Intern, Summer 2027",
+   "locations": [
+    "Oslo"
+   ],
+   "deadline": null,
+   "rolling": true,
+   "text": "Product Designer Intern, Summer 2027 at Ardoq Please note that this is an in-person internship Monday-Friday at our Oslo offices. The Ardoq Story Ardoq is one of Norway’s most exciting scale-ups - a truly global company built out of Oslo. We are a SaaS platform that helps organizations understand, manage, and evolve their complex digital landscape. By providing a dynamic, collaborative &#34;digital twin&#34; of their business, we connect systems, people, and processes to drive better decision-making and accelerate digital transformation. Today, we help some of the world’s most complex organizations (like ExxonMobil and British Telecom) gain clarity in a changing world. We are backed by leading global tech investors, including EQT and One Peak , giving us the stability of a mature company with the speed and soul of a startup. About the Role As a Product Designer Intern at Ardoq, you will play a key role in shaping how our customers experience the next generation of business tools. This is not just about creating wireframes and mockups (though you will do plenty of that); it is about making complex systems feel simple, intuitive, and engaging. You will collaborate closely with engineers, product managers, and fellow designers to turn ideas into prototypes, test concepts with users, and bring solutions to life. Your work will directly influence how our clients, including some of Norway’s leading enterprises, interact with our platform every day. If you are curious, eager to learn, and ready to combine creativity with problem solving, this is your chance to grow as a designer while making a tangible impact on a fast scaling international product. Dates - June 14th until August 13th, with flexibility to accommodate university schedules where necessary. What you’ll do Research and Test: Work closely with your team on feature development by conducting user research and testing during project time. Grow Your Skills: Learn when to use low fidelity and high fidelity work to m",
+   "categories": []
+  },
+  "68b4878f-645b-441a-a452-aafdf07b88d0": {
+   "source": "nav",
+   "sourceId": "68b4878f-645b-441a-a452-aafdf07b88d0",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/68b4878f-645b-441a-a452-aafdf07b88d0",
+   "company": "Bane NOR SF",
+   "title": "Leder konsolidering og intern kontroll",
+   "locations": [
+    "Oslo"
+   ],
+   "deadline": "2027-01-03",
+   "rolling": false,
+   "text": "Om oss Bane NOR har ansvaret for infrastrukturen på jernbanen i Norge, og drifter, vedlikeholder og bygger jernbane over hele landet. Med en sikker og tilgjengelig jernbaneinfrastruktur skal vi legge grunnlaget for trafikkvekst og grønn mobilitet gjennom gode knutepunkt for passasjerer og gods. Vi styrer trafikken på jernbanen og forvalter og utvikler jernbaneeiendom. Hos oss vil du oppleve å få kollegaer med en sterk tro på, og engasjement for å løse oppdraget vårt. Vi ønsker oss kollegaer med ulike kompetanser, fagkombinasjoner, livserfaring og perspektiver for å bidra til enda bedre oppgaveløsning, fordi inkludering og mangfold er en styrke. Konsernregnskap i Bane NOR gjennomfører nå en rekke strategiske grep for å styrke- og profesjonalisere funksjonen. Som del av dette arbeidet har «Konsolidering og Intern kontroll» nylig blitt etablert som en egen enhet innen Konsernregnskap i Bane NOR. Denne enheten vil bli sentral i arbeidet med å sikre og videreutvikle kvaliteten i finansiell rapportering gjennom å koble forretningsforståelse sammen med regnskapsfaglige problemstillinger og løfte modenheten på intern kontroll over finansiell rapportering. Som leder for konsolidering og internkontroll vil du ha resultat-, personal- og fagansvar for enheten. Stillingen vil rapportere til Direktør Konsernregnskap og inngå i ledergruppen i Konsernregnskap. Stillingen er en synlig rolle og gir en unik mulighet til å kombinere ledelse med solid regnskapsfaglig kompetanse og virksomhetsforståelse, drive utviklingsarbeid gjennom profesjonalisering av regnskapsfunksjonen- og regnskapsprosesser, samt bidra til å løfte modenheten på intern kontroll over finansiell rapportering. Ansvarsområder Videreutvikle, og følge opp etterlevelsen av konsernets regnskapsprinsipper og konsolideringsprinsipper gjennom å være en synlig og sentral ressursperson. Være sterk pådriver for kvalitet i finansiell rapportering gjennom oppfølging, veiledning, faglig støtte og kvalitetssikring innen regnskapsfa",
+   "categories": [
+    "Kontor og økonomi",
+    "Personal, arbeidsmiljø og rekruttering",
+    "Leder for medarbeiderrelasjoner",
+    "Organisasjonsrådgivere"
    ]
   }
  }
